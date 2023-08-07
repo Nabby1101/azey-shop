@@ -18,6 +18,7 @@ import {
 } from '../../redux/actions/userActions';
 import ContentNews from './ContentNews';
 import ContentProducts from './ContentProducts';
+import api from '../../api';
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -286,7 +287,7 @@ const Home = () => {
                     >
                       <div className='newstop imgfit'>
                         <img
-                          src={`https://nabby-app-backend.onrender.com/uploads/posts/${value.image}`}
+                          src={`${api}uploads/posts/${value.image}`}
                           alt='画像'
                         />
                       </div>
