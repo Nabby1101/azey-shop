@@ -175,7 +175,7 @@ class UserController {
 
     //[GET] /login-google/callback || /login-facebook/callback
     redirectToken(req, res) {
-        res.redirect('https://app-text-frontend.vercel.app');
+        res.redirect('https://azey-shop.vercel.app');
     }
 
     //[GET] /login-google/success || /login-facebook/success

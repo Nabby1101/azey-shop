@@ -287,7 +287,7 @@ const Home = () => {
                     >
                       <div className='newstop imgfit'>
                         <img
-                          src={`${api}uploads/posts/${value.image}`}
+                          src={`https://azey-app.onrender.com/uploads/posts/${value.image}`}
                           alt='画像'
                         />
                       </div>

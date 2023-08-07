@@ -124,7 +124,7 @@ const ContentNews = (props) => {
                             <div
                                 className="product-large set-bg m-large large-man"
                                 style={{
-                                    backgroundImage: `url(https://nabby-app-backend.onrender.com/uploads/images/${img[0].image})`,
+                                    backgroundImage: `url(https://azey-app.onrender.com/uploads/images/${img[0].image})`,
                                 }}
                             >
                                 <h2>{img[0].title}</h2>
@@ -207,7 +207,7 @@ const ContentNews = (props) => {
                     >
                       <div className='newstop imgfit'>
                         <img
-                          src={`https://nabby-app-backend.onrender.com/uploads/posts/${value.image}`}
+                          src={`https://azey-app.onrender.com/uploads/posts/${value.image}`}
                           alt='画像'
                         />
                       </div>
@@ -264,7 +264,7 @@ const ContentNews = (props) => {
                           to={`/tin-tuc/${value.slug}`}>
                           <div className="imgfit">
                             <img
-                              src={`https://nabby-app-backend.onrender.com/uploads/posts/${checkImage(
+                              src={`https://azey-app.onrender.com/uploads/posts/${checkImage(
                                 key
                               )}`}
                               alt="画像" />

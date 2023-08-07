@@ -70,7 +70,7 @@ const News = () => {
     const items = [];
 
     if (list.length === 0) {
-      return <h1 style={{ textAlign: 'center' }}>Không Có Sản Phẩm Nào Cả</h1>;
+      return <h1 style={{ textAlign: 'center' }}>Không Có Tin Tức Nào Cả</h1>;
     }
     for (let i = 1 ;i < limit && i < list.length; i += 3) {
       const itemSet = list.slice(i, i + 3);
@@ -88,7 +88,7 @@ const News = () => {
                 to={`/tin-tuc/${value.slug}`}>
                 <div className="imgfit">
                   <img
-                    src={`https://nabby-app-backend.onrender.com/uploads/posts/${value.image}`}
+                    src={`https://azey-app.onrender.com/uploads/posts/${value.image}`}
                     alt="画像" />
                 </div>
               </Link>
@@ -188,7 +188,7 @@ const News = () => {
                   >
                     <div className='newstop imgfit'>
                       <img
-                        src={`https://nabby-app-backend.onrender.com/uploads/posts/${value.image}`}
+                        src={`https://azey-app.onrender.com/uploads/posts/${value.image}`}
                         alt='画像'
                       />
                     </div>

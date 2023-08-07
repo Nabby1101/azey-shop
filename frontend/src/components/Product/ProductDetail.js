@@ -700,7 +700,7 @@ const ProductDetail = () => {
               {pro.image ? (
                 <img
                   className="product-big-img"
-                  src={`https://nabby-app-backend.onrender.com/uploads/products/${pro.image.split(',')[
+                  src={`https://azey-app.onrender.com/uploads/products/${pro.image.split(',')[
                     count
                   ]
                     }`}
@@ -753,7 +753,7 @@ const ProductDetail = () => {
                             style={{ margin: '1%', cursor: 'pointer' }}
                           >
                             <img
-                              src={`https://nabby-app-backend.onrender.com/uploads/products/${value}`}
+                              src={`https://azey-app.onrender.com/uploads/products/${value}`}
                               alt=""
                             />
                           </div>
