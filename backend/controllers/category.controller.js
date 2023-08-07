@@ -1,0 +1,215 @@
+const categoryModel = require('../models/category.model');
+const { mongooseToObject } = require('../utils/mongoose');
+const uploadFile = require('../utils/multerCategory');
+
+class CategoryController {
+    uploadImg = uploadFile.single('image');
+
+    uploadSingleImg = async (req, res, next) => {
+        try {
+            res.send('File Uploaded Successfully');
+        } catch (error) {
+            res.send(error.message);
+        }
+    };
+
+    // [POST] /store
+    store(req, res, next) {
+        const info = JSON.parse(req.body.infos);
+        console.log('backend categoryController', info)
+        // var imagesArray = [];
+        // let arr = '';
+        let image_path = ''
+
+        if (req.file) {
+            // req.file.forEach((element, key) => {
+            //     arr += element.path.slice(20) + ',';
+            // });
+            // imagesArray = arr.slice(0, -1);
+            image_path = req.file.path
+        }
+
+        const category = new categoryModel({
+            name: info.name,
+            image: image_path,
+            parentCate: info.parentCate,
+            type: info.type,
+            status: info.status,
+        });
+
+        category
+            .save()
+            .then(() =>
+                res.json({
+                    info: {
+                        category,
+                    },
+                    message: {
+                        message: 'Add Category Successfully !!!',
+                    },
+                })
+            )
+            .catch((err) => {
+                res.send({ message: err });
+            });
+    }
+
+    // [PUT] /:id
+    update(req, res, next) {
+        const info = JSON.parse(req.body.infos);
+        console.log('backend categoryController', info)
+        // var imagesArray = [];
+        // let arr = '';
+        let image_path = ''
+
+        if (req.file) {
+            // req.file.forEach((element, key) => {
+            //     arr += element.path.slice(20) + ',';
+            // });
+            // imagesArray = arr.slice(0, -1);
+            image_path = req.file.path
+        }
+
+        categoryModel
+            .updateOne(
+                { _id: req.params.id },
+                {
+                    name: info.name,
+                    image: image_path,
+                    parentCate: info.parentCate,
+                    type: info.type,
+                    status: info.status,
+                }
+            )
+            .then(() => res.send({ message: 'Update Successfully !!!' }))
+            .catch((err) => {
+                res.send({ message: err });
+            });
+    }
+
+    // [PATCH] /restore
+    restore(req, res, next) {
+        try {
+            const ids = req.body.data;
+            ids.forEach((value) =>
+                categoryModel.restore({ _id: value }, (err, result) => {
+                    if (err) throw err;
+                    console.log(result);
+                })
+            );
+            res.send('Restore Successfully !!!');
+        } catch (error) {
+            res.send({ message: err });
+        }
+    }
+
+    // [PATCH] /:id
+    active = async (req, res, next) => {
+        try {
+            const category = await categoryModel.findOne({
+                _id: req.params.id,
+            });
+            const show = { status: '1' };
+            const hidden = { status: '0' };
+            category.status === '1'
+                ? categoryModel
+                    .findOneAndUpdate({ _id: category.id }, hidden, {
+                        returnOriginal: false,
+                    })
+                    .then(() => res.send('hidden'))
+                    .catch(() =>
+                        res.send({ message: 'Category Not Found !!!' })
+                    )
+                : categoryModel
+                    .findOneAndUpdate({ _id: req.params.id }, show, {
+                        returnOriginal: false,
+                    })
+                    .then(() => res.send('show'))
+                    .catch(() =>
+                        res.send({ message: 'Category Not Found !!!' })
+                    );
+        } catch (error) {
+            res.send({ message: 'Error' });
+        }
+    };
+
+    // [DELETE] /:id/force
+    forceDestroy(req, res, next) {
+        const ids = req.body.id;
+        const idArr = ids.split(',');
+        categoryModel
+            .deleteMany({ _id: idArr })
+            .then(() => res.send('Delete Forever Successfully !!!'))
+            .catch(() => res.send({ message: 'Delete Forever failed' }));
+    }
+
+    // [DELETE] /:id
+    destroy(req, res, next) {
+        const ids = req.body.id;
+        const idArr = ids.split(',');
+        categoryModel
+            .delete({ _id: idArr })
+            .then(() => res.send('Delete Successfully !!!'))
+            .catch(() => res.send({ message: 'Delete failed' }));
+    }
+
+    // [GET] /:id/edit
+    edit(req, res, next) {
+        categoryModel
+            .findById(req.params.id)
+            .then((category) => res.send(category))
+            .catch(next);
+    }
+
+    // [GET] /
+    show(req, res, next) {
+        Promise.all([
+            categoryModel.find({}),
+            categoryModel.countDocumentsDeleted(),
+        ])
+            .then(([Categories, deletedCount]) =>
+                res.json({
+                    deletedCount,
+                    Categories,
+                })
+            )
+            .catch(next);
+    }
+
+    // [GET] /trash
+    trash(req, res, next) {
+        categoryModel
+            .findDeleted({})
+            .then((category) => res.json(category))
+            .catch(next);
+    }
+
+    // [GET] /:slug
+    // show(req, res, next) {
+    //     categoryModel.findOne({ slug: req.params.slug })
+    //         .then(category => {
+    //             // res.send(category, {
+    //             // category: mongooseToObject(category)
+    //             // });
+    //             res.send(category)
+    //         })
+    //         .catch(next)
+    // }
+
+    // [POST] /handle-form-actions
+    // handleFormAction(req, res, next) {
+    //     switch (req.body.action) {
+    //         case 'delete':
+    //             categoryModel.delete({ _id: { $in: req.body.categoryIds } })
+    //                 // .then(() => res.redirect('back'))
+    //                 .then(() => res.send('Đã xóa các danh mục sản phẩm đã chọn !!!'))
+    //                 .catch(next);
+    //             break;
+
+    //         default:
+    //             res.json({ message: 'Action in invalid' })
+    //     }
+    // }
+}
+
+module.exports = new CategoryController();

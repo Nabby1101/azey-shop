@@ -1,0 +1,2129 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Noto+Sans+JP:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Noto+Sans+JP:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Noto+Sans+JP:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Noto+Sans+JP:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Noto+Sans+JP:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Noto+Sans+JP:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Noto+Sans+JP:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Noto+Sans+JP:wght@400;700&display=swap");
+
+.second {
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background-repeat: no-repeat;
+    background-position: right top
+}
+
+@media screen and (max-width: 480px) {
+    .second {
+        padding-bottom: 100px;
+        background-size: auto 1000px;
+        background-position: -10% top;
+        background-attachment: fixed
+    }
+}
+
+.smallWidth {
+    width: 880px;
+    margin: auto
+}
+
+@media screen and (max-width: 480px) {
+    .smallWidth {
+        width: 100%
+    }
+}
+
+.sns-share {
+    border-bottom: 1px dotted #999;
+    margin: 100px 0 20px;
+    padding-bottom: 20px;
+    line-height: 0
+}
+
+.sns-share .fb_iframe_widget>span {
+    vertical-align: baseline !important
+}
+
+.sns-share ul {
+    display: flex;
+    margin-bottom: -10px
+}
+
+.sns-share li {
+    display: inline-block
+}
+
+.sns-share li:nth-child(n+2) {
+    margin-left: 8px
+}
+
+@media screen and (max-width: 480px) {
+    .sns-share {
+        margin: 60px 0 30px;
+        padding-bottom: 30px
+    }
+}
+
+.share {
+    display: flex;
+    align-items: center
+}
+
+.share p {
+    display: block;
+    font-family: "Barlow", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    margin-right: 15px;
+    font-weight: 700;
+    font-size: 2.8rem;
+    letter-spacing: 0px
+}
+
+.share a {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 44px;
+    padding: 7px;
+    line-height: 0;
+    margin-right: 7px;
+    transition: all .2s ease
+}
+
+.share a:hover {
+    opacity: 0.6;
+    transform: rotate(20deg)
+}
+
+@media screen and (max-width: 480px) {
+    .share p {
+        margin-right: 20px;
+        font-size: 2.4rem
+    }
+
+    .share a {
+        width: 40px;
+        margin-right: 10px
+    }
+}
+
+.musiclist h1.title {
+    padding-bottom: 30px
+}
+
+.musiclist .term {
+    margin-bottom: 50px
+}
+
+.musiclist .term ul {
+    display: flex;
+    align-items: center;
+    padding-left: 5px
+}
+
+.musiclist .term li {
+    line-height: 1.2;
+    margin-right: 10px
+}
+
+.musiclist .term li a {
+    text-decoration: none;
+    transition: all .2s ease
+}
+
+.musiclist .term li.termLink a {
+    font-family: "Barlow", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    font-weight: 700;
+    font-size: 2.0rem
+}
+
+.musiclist .term li.rule {
+    margin-left: 40px
+}
+
+.musiclist .term li.rule a {
+    padding: 5px 20px;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    display: block
+}
+
+.musiclist .term li.rule a:hover {
+    background-color: #000;
+    color: #fff
+}
+
+.musiclist .item {
+    margin-bottom: 30px
+}
+
+.musiclist .item li {
+    width: 23%;
+    margin: 1%
+}
+
+@media screen and (min-width: 1600px) {
+    .musiclist .item li {
+        width: 18%
+    }
+}
+
+.musiclist .item.article ul {
+    background-color: #EBEBEB;
+    padding-top: 5%;
+    padding-bottom: 5%
+}
+
+.musiclist .item.article li {
+    width: 18%;
+    margin: 1%
+}
+
+@media screen and (min-width: 1600px) {
+    .musiclist .item.article li {
+        width: 14.666%
+    }
+}
+
+.musiclist .item.article.termFlg ul {
+    padding-top: 0;
+    background-color: transparent
+}
+
+.musiclist h1.h1soft {
+    font-size: 140%;
+    margin-bottom: 10px;
+    color: #000
+}
+
+.musiclist .cat {
+    font-size: 60%;
+    line-height: 1.2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 600
+}
+
+.musiclist .main {
+    margin-bottom: 7%
+}
+
+.musiclist .main .info,
+.musiclist .main .list,
+.musiclist .main .img {
+    width: 50%
+}
+
+.musiclist .main .info,
+.musiclist .main .list {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.musiclist .main .info {
+    padding-right: 2.5%
+}
+
+.musiclist .main .info h1 {
+    font-family: "Barlow", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 2.2rem;
+    letter-spacing: 0px;
+    display: flex;
+    align-items: center
+}
+
+.musiclist .main .info h1 .new {
+    width: 20%;
+    line-height: 0;
+    margin-right: 4%
+}
+
+.musiclist .main .info h1 .release {
+    font-weight: 800;
+    width: 80%
+}
+
+.musiclist .main .info h1 .release .share {
+    margin-top: 8px
+}
+
+.musiclist .main .info h1 .release .share p {
+    font-size: 1.9rem;
+    margin-right: 10px;
+    font-feature-settings: "pkna"
+}
+
+.musiclist .main .info h1 .release .share a {
+    margin-right: 3px
+}
+
+.musiclist .main .info h2 {
+    font-family: "Barlow", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4.0rem;
+    padding: 30px 0 15px;
+    letter-spacing: 0
+}
+
+.musiclist .main .info h3 {
+    font-weight: normal;
+    font-size: 1.4rem;
+    margin-bottom: 35px
+}
+
+.musiclist .main .info .link {
+    margin-bottom: 35px;
+    line-height: 0
+}
+
+.musiclist .main .info .link a {
+    font-family: "Barlow", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0;
+    margin: 0 5px 5px 0;
+    line-height: 1.6
+}
+
+.musiclist .main .info .intro {
+    font-size: 1.2rem
+}
+
+.musiclist .main .list {
+    border-left: 1px solid #ccc;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    font-size: 1.2rem
+}
+
+.musiclist .main .list h3 {
+    font-size: 2.0rem;
+    font-style: italic;
+    font-weight: 800
+}
+
+.musiclist .youtube {
+    background-color: #333333
+}
+
+@media screen and (max-width: 480px) {
+    .musiclist .term {
+        margin-bottom: 60px
+    }
+
+    .musiclist .term ul {
+        flex-wrap: wrap
+    }
+
+    .musiclist .term li.termLink a {
+        font-size: 2.6rem
+    }
+
+    .musiclist .term li.rule {
+        margin-right: 0;
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px
+    }
+
+    .musiclist .term li.rule a {
+        padding: 7px 20px;
+        display: block;
+        font-size: 1.4rem
+    }
+
+    .musiclist .item li {
+        width: inherit;
+        margin: 30px 0% 0
+    }
+
+    .musiclist .item li:first-child {
+        margin-top: 0
+    }
+
+    .musiclist .item.article ul {
+        padding-top: 8%;
+        padding-bottom: 8%
+    }
+
+    .musiclist .item.article li {
+        margin: 0% 0 20px
+    }
+
+    .musiclist .main {
+        margin-bottom: 60px;
+        flex-wrap: wrap;
+        text-align: center
+    }
+
+    .musiclist .main .info,
+    .musiclist .main .list,
+    .musiclist .main .img {
+        width: 100%
+    }
+
+    .musiclist .main .info,
+    .musiclist .main .list {
+        padding-top: 50px;
+        padding-bottom: 30px
+    }
+
+    .musiclist .main .info {
+        order: 2;
+        padding-right: 0%
+    }
+
+    .musiclist .main .info h1 {
+        display: block;
+        line-height: 6vw
+    }
+
+    .musiclist .main .info h1 .new {
+        width: 25%;
+        margin: 0 auto 25px
+    }
+
+    .musiclist .main .info h1 .release {
+        font-size: 2.8rem;
+        width: 100%
+    }
+
+    .musiclist .main .info h1 .release .share {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        justify-content: center
+    }
+
+    .musiclist .main .info h1 .release .share p {
+        font-size: 2.2rem;
+        margin-right: 15px
+    }
+
+    .musiclist .main .info h1 .release .share a {
+        padding: 8px;
+        margin-right: 10px
+    }
+
+    .musiclist .main .info h2 {
+        font-size: 2.8rem;
+        line-height: 3.6rem;
+        padding: 25px 0;
+        letter-spacing: 0
+    }
+
+    .musiclist .main .info h3 {
+        font-size: 1.6rem;
+        margin-bottom: 30px
+    }
+
+    .musiclist .main .info .link {
+        margin-bottom: 40px
+    }
+
+    .musiclist .main .info .link a {
+        margin: 3px
+    }
+
+    .musiclist .main .info .intro {
+        font-size: 1.6rem;
+        text-align: left
+    }
+
+    .musiclist .main .list {
+        order: 3;
+        text-align: left;
+        border-top: 1px dotted #666;
+        border-left: none;
+        padding-left: 0%;
+        padding-right: 0%;
+        font-size: 1.4rem
+    }
+
+    .musiclist .main .img {
+        order: 1
+    }
+
+    .musiclist .cat {
+        font-size: 70%
+    }
+}
+
+#software {
+    padding-bottom: 0
+}
+
+#software .txt p {
+    margin-bottom: 15px
+}
+
+#software .item {
+    margin-bottom: 0px
+}
+
+#software .item.top {
+    margin-bottom: 150px
+}
+
+#software .item.article ul {
+    background-color: transparent
+}
+
+#software .item.article.termFlg ul {
+    padding-bottom: 150px
+}
+
+#software .main .list {
+    font-size: 1.2rem
+}
+
+#software .youtubeBox {
+    background-color: #333;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+@media screen and (max-width: 480px) {
+    #software .youtubeBox {
+        padding: 50px 50px 30px
+    }
+}
+
+#software .youtubeBox ul {
+    display: flex;
+    justify-content: center
+}
+
+@media screen and (max-width: 480px) {
+    #software .youtubeBox ul {
+        flex-wrap: wrap
+    }
+}
+
+#software .youtubeBox li {
+    width: 49.5%;
+    margin-right: 1%
+}
+
+@media screen and (max-width: 480px) {
+    #software .youtubeBox li {
+        width: 100%;
+        margin-bottom: 20px
+    }
+}
+
+#software .youtubeBox li:last-of-type {
+    margin-right: 0
+}
+
+#software .samplevoice {
+    background-color: #e60f7e;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    color: #fff;
+    font-family: "Barlow", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif
+}
+
+#software .samplevoice__title {
+    font-weight: 700;
+    font-size: 2.0rem;
+    margin-bottom: 5px
+}
+
+@media screen and (max-width: 480px) {
+    #software .samplevoice__title {
+        font-size: 7vw
+    }
+}
+
+#software .samplevoice__box {
+    display: flex;
+    flex-wrap: wrap
+}
+
+#software .samplevoice__box dl {
+    width: 23.5%;
+    margin: 0.6% 2% 0.6% 0
+}
+
+@media screen and (max-width: 480px) {
+    #software .samplevoice__box dl {
+        width: 49%;
+        margin-top: 1%;
+        margin-bottom: 3%
+    }
+}
+
+#software .samplevoice__box dl:nth-child(4n) {
+    margin-right: 0
+}
+
+@media screen and (max-width: 480px) {
+    #software .samplevoice__box dl:nth-child(4n) {
+        margin-right: 2%
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #software .samplevoice__box dl:nth-child(2n) {
+        margin-right: 0%
+    }
+}
+
+#software .samplevoice__link {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    padding-bottom: 4px;
+    font-size: 1.7rem;
+    line-height: 1.4;
+    display: flex;
+    transition: all .2s ease
+}
+
+#software .samplevoice__link>span {
+    display: block
+}
+
+#software .samplevoice__link>span small {
+    display: inline-block;
+    font-size: 80%
+}
+
+#software .samplevoice__link i {
+    color: #000;
+    margin-right: 8px;
+    transition: all .2s ease;
+    font-size: 120%
+}
+
+#software .samplevoice__link:hover {
+    border-bottom-color: #fff
+}
+
+#software .samplevoice__link:hover i {
+    color: #fff
+}
+
+#software .samplevoice__txt {
+    line-height: 1.5;
+    font-size: 1.2rem;
+    margin-top: 5px
+}
+
+#software .samplevoice__txt small {
+    display: block;
+    margin-top: 5px
+}
+
+#software .plusSpec {
+    background-color: #EBEBEB;
+    padding: 50px 0;
+    font-size: 1.2rem
+}
+
+#software .plusSpec h1.plus {
+    font-size: 140%;
+    margin-bottom: 10px;
+    color: #000
+}
+
+#software .more {
+    margin-bottom: 80px
+}
+
+#software .what {
+    background-color: #EBEBEB;
+    border-bottom: 5px solid #EBEBEB
+}
+
+#software .what nav {
+    overflow: hidden
+}
+
+#software .what nav ul {
+    display: flex
+}
+
+#software .what nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+    position: relative;
+    font-family: "Barlow", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    font-weight: 600;
+    font-size: 2.0rem;
+    line-height: 1.6;
+    cursor: pointer;
+    transition: all .2s ease
+}
+
+#software .what nav li,
+#software .what nav li a {
+    color: #fff
+}
+
+#software .what nav li:nth-of-type(2) {
+    z-index: 1
+}
+
+#software .what nav li:nth-of-type(3) {
+    font-size: 95%
+}
+
+#software .what nav li:nth-of-type(1),
+#software .what nav li:nth-of-type(2) {
+    padding: 20px 0
+}
+
+#software .what nav li::before {
+    content: "";
+    background-color: #404040;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transform: skewX(-30deg) scale(1.005);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .2s ease
+}
+
+#software .what nav li:nth-of-type(1),
+#software .what nav li:nth-of-type(1)::before {
+    background-color: #000
+}
+
+#software .what nav li:nth-of-type(3),
+#software .what nav li:nth-of-type(3)::before {
+    background-color: #727272
+}
+
+#software .what nav li a {
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center
+}
+
+#software .what nav li span,
+#software .what nav li a {
+    position: relative
+}
+
+#software .what nav li:hover,
+#software .what nav li:hover a {
+    color: #000
+}
+
+#software .what nav li:hover:not(:nth-of-type(2)),
+#software .what nav li:hover::before {
+    background-color: #a7a7a7
+}
+
+#software .what nav li.select,
+#software .what nav li.select a {
+    color: #000
+}
+
+#software .what nav li.select:not(:nth-of-type(2)),
+#software .what nav li.select::before {
+    background-color: #EBEBEB
+}
+
+#software .what .whatBox {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-size: 1.2rem
+}
+
+@media screen and (max-width: 480px) {
+    #software .item.top {
+        margin-bottom: 100px
+    }
+
+    #software .item.top {
+        margin-bottom: 100px
+    }
+
+    #software .item.termFlg ul {
+        padding-bottom: 100px
+    }
+
+    #software ul.imgHover li {
+        text-align: center
+    }
+
+    #software ul.imgHover li img {
+        width: 80%
+    }
+
+    #software .main .info {
+        width: 100%;
+        padding-bottom: 0
+    }
+
+    #software .main .info .intro {
+        font-size: 1.6rem
+    }
+
+    #software .main .list {
+        margin-top: 50px;
+        font-size: 1.4rem
+    }
+
+    #software .main .img {
+        width: 100%
+    }
+
+    #software .plusSpec {
+        font-size: 1.4rem;
+        background-color: transparent;
+        padding: 0
+    }
+
+    #software .plusSpec .commonPadding {
+        padding: 0
+    }
+
+    #software .plusSpec .flex {
+        flex-wrap: wrap
+    }
+
+    #software .plusSpec h1.plus {
+        padding: 10px 10%
+    }
+
+    #software .plusSpec .left h1.plus {
+        background-color: #000;
+        color: #fff
+    }
+
+    #software .plusSpec .right h1.plus {
+        background-color: #ccc;
+        color: #000
+    }
+
+    #software .plusSpec .txt {
+        padding: 20px 10% 60px
+    }
+
+    #software .what {
+        margin-top: 50px
+    }
+
+    #software .what nav ul {
+        flex-wrap: wrap
+    }
+
+    #software .what nav li {
+        width: 50%;
+        font-size: 5vw
+    }
+
+    #software .what nav li:nth-of-type(1) {
+        order: 2;
+        background-color: transparent
+    }
+
+    #software .what nav li:nth-of-type(1)::before {
+        transform: skewX(-30deg) scaleX(1.1) translateX(-3%)
+    }
+
+    #software .what nav li:nth-of-type(2) {
+        order: 3
+    }
+
+    #software .what nav li:nth-of-type(2)::before {
+        transform: skewX(-30deg) scaleX(1.1) translateX(3%)
+    }
+
+    #software .what nav li:nth-of-type(3) {
+        width: 100%;
+        z-index: 1;
+        order: 1
+    }
+
+    #software .what nav li:nth-of-type(3) a {
+        padding: 15px 0
+    }
+
+    #software .what .flex,
+    #software .what .whatBox {
+        padding-bottom: 80px;
+        flex-wrap: wrap
+    }
+
+    #software .what .flex .left,
+    #software .what .flex .right,
+    #software .what .whatBox .left,
+    #software .what .whatBox .right {
+        width: 100%
+    }
+}
+
+#news a:hover,
+#live a:hover {
+    color: #FF00E2
+}
+
+.imgfit {
+    right: 0;
+    top: 0;
+    border: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 5px
+}
+
+.imgfit img {
+    transition: all .3s ease
+}
+
+a .imgfit:hover img {
+    transform: scale(1.1, 1.1)
+}
+
+.cat ul {
+    margin-bottom: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+    font-size: 1.3rem;
+    font-family: "Barlow", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    font-style: italic
+}
+
+.cat li {
+    display: inline-block;
+    margin-right: 5px
+}
+
+.cat li a {
+    display: inline-block;
+    border-bottom: 4px solid #FF00E2;
+    letter-spacing: 0;
+    padding: 2px 4px;
+    color: #000;
+    text-decoration: none
+}
+
+.wp_title {
+    font-size: 2.8rem;
+    line-height: 1.6em;
+    font-weight: bold;
+    position: relative
+}
+
+.wp_title a {
+    transition: all .2s ease;
+    color: #000;
+    text-decoration: none
+}
+
+.day {
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 0px;
+    font-size: 1.9rem;
+    line-height: 1.4;
+    font-family: "Barlow", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    margin-bottom: 10px
+}
+
+@media screen and (max-width: 480px) {
+    a .imgfit:hover img {
+        transform: scale(1, 1)
+    }
+
+    .cat ul {
+        margin-bottom: 20px;
+        font-size: 1.6rem
+    }
+
+    .cat li a {
+        border-bottom-width: 3px
+    }
+
+    .wp_title {
+        font-size: 2.2rem
+    }
+
+    .day {
+        font-size: 2.4rem
+    }
+}
+
+.ichiran {
+    margin-bottom: 50px
+}
+
+.ichiran ul.thumbList {
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    padding-bottom: 70px;
+    border-bottom: 2px solid #ccc
+}
+
+.ichiran ul.thumbList:last-child {
+    border-bottom: none;
+    margin-bottom: 0px;
+    padding-bottom: 50px
+}
+
+.ichiran li.thumb {
+    position: relative;
+    width: 30%;
+    margin-right: 5%
+}
+
+.ichiran li.thumb:nth-child(3n) {
+    margin-right: 0
+}
+
+.ichiran li.thumb a {
+    transition: all .2s ease;
+    color: #000;
+    text-decoration: none;
+    display: block
+}
+
+.ichiran li.thumb h1 {
+    font-size: 1.3rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin-top: 20px
+}
+
+.ichiran li.thumb .imgfit {
+    height: 150px;
+    margin-bottom: 10px
+}
+
+.ichiran li.thumb .imgfit img {
+    max-height: 150px
+}
+
+.ichiran .pager {
+    text-align: center;
+    font-family: "Barlow", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    font-weight: 700
+}
+
+.ichiran .pager li {
+    display: inline-block
+}
+
+.ichiran .pager li a {
+    border: 1px solid #ccc;
+    padding: 8px 0px;
+    width: 2.3em;
+    display: inline-block;
+    line-height: 1em;
+    text-decoration: none
+}
+
+.ichiran .pager li.active a {
+    background-color: #000;
+    color: #fff
+}
+
+@media screen and (max-width: 480px) {
+    .ichiran {
+        flex-wrap: wrap
+    }
+
+    .ichiran ul.thumbList {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        border-bottom: none
+    }
+
+    .ichiran li.thumb {
+        width: 100%;
+        margin-right: 0%;
+        border-top: 1px dotted #ccc;
+        margin-top: 50px;
+        padding-top: 50px
+    }
+
+    .ichiran li.thumb h1 {
+        font-size: 1.8rem;
+        margin-top: 20px
+    }
+
+    .ichiran li.thumb .imgfit {
+        height: 200px
+    }
+
+    .ichiran li.thumb .imgfit img {
+        max-height: 200px
+    }
+
+    .ichiran .pager {
+        margin-top: 60px
+    }
+}
+
+.article .main {
+    margin-top: -135px
+}
+
+.article .main .imgfit {
+    border: none;
+    margin-bottom: 25px
+}
+
+.article .honbun {
+    margin-top: 60px;
+    letter-spacing: 1.5px
+}
+
+.article .honbun a {
+    color: #FF00E2
+}
+
+#news .article .honbun h1 {
+    font-size: 2.2rem;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    line-height: 1.4
+}
+
+#news .article .honbun h2 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    line-height: 1.6
+}
+
+.article .honbun p {
+    margin: 30px 0px
+}
+
+.article .honbun .mainTxtColor {
+    color: #FF00E2
+}
+
+.article .honbun .flex p {
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+@media screen and (max-width: 480px) {
+    .article {
+        flex-wrap: wrap
+    }
+
+    .article .main {
+        margin-top: 0px
+    }
+
+    .article .main .imgfit {
+        height: 200px
+    }
+
+    .article .main .imgfit img {
+        max-height: 200px
+    }
+
+    .article .honbun {
+        margin-top: 50px
+    }
+
+    #news .article .honbun h1 {
+        margin-top: 50px;
+        padding-bottom: 10px
+    }
+
+    #news .article .honbun h2 {
+        margin-top: 40px;
+        margin-bottom: 5px
+    }
+
+    .article .honbun .flex {
+        display: block
+    }
+
+    .article .navColumn {
+        display: none
+    }
+}
+
+.articleList .topnews {
+    position: relative;
+    margin: -140px 0 140px 6%;
+    padding-left: 5px
+}
+
+.articleList .topnews .newstop {
+    width: 60%;
+    height: 500px;
+    position: absolute
+}
+
+.articleList .topnews .newstop img {
+    max-height: 500px
+}
+
+.articleList .topnews .imgfit {
+    border: none;
+    justify-content: flex-end
+}
+
+.articleList .topnews .txt {
+    padding-top: 280px
+}
+
+.articleList .topnews .wp_title {
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 60%;
+    padding: 0px 30px 30px 0
+}
+
+.articleList .navColumn {
+    width: 300px
+}
+
+.articleList .navColumn ul {
+    font-family: "Barlow", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-size: 1.8rem;
+    font-style: italic
+}
+
+.articleList .navColumn ul li {
+    margin-bottom: 10px
+}
+
+.articleList .main {
+    width: 100%;
+    padding-left: 80px
+}
+
+@media screen and (max-width: 480px) {
+    .articleList .topnews {
+        margin-left: 0;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 0
+    }
+
+    .articleList .topnews .newstop {
+        width: 100%;
+        height: auto;
+        position: relative
+    }
+
+    .articleList .topnews .newstop img {
+        max-height: inherit
+    }
+
+    .articleList .topnews .txt {
+        padding: 20px 20px 0 0;
+        margin-top: -50px;
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.85);
+        width: 90%
+    }
+
+    .articleList .topnews .day,
+    .articleList .topnews .wp_title {
+        margin-left: 10%
+    }
+
+    .articleList .topnews .day {
+        margin-left: 10%
+    }
+
+    .articleList .topnews .wp_title {
+        background-color: transparent;
+        width: auto;
+        padding: 0
+    }
+
+    .articleList .navColumn {
+        width: calc(100% + 80px);
+        order: 2;
+        margin-top: 100px
+    }
+
+    .articleList .navColumn ul {
+        font-size: 1.8rem
+    }
+
+    .articleList .navColumn ul li {
+        margin-bottom: 10px
+    }
+
+    .articleList .main {
+        padding-left: 0px;
+        order: 1;
+        width: 100%
+    }
+}
+
+#searchBox {
+    position: relative;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 16%;
+}
+
+#searchBox #s-box,
+#searchBox button {
+    height: 30px
+}
+
+#searchBox #s-box {
+    padding: 0 10px;
+    border-radius: 2px;
+    border: solid 3px #eaeaea;
+    outline: 0;
+    width: calc(100% - 80px);
+}
+
+#searchBox button {
+    background-color: #000;
+    border-radius: 3px;
+    font-size: 1.4rem;
+    width: 60px;
+    color: #fff;
+    font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    border: none;
+    margin-left: 10px
+}
+
+@media screen and (max-width: 480px) {
+
+    #searchBox #s-box,
+    #searchBox button {
+        height: 50px;
+        font-size: 1.8rem
+    }
+
+    #searchBox button {
+        font-size: 2.0rem;
+        width: 100px
+    }
+}
+
+#about {
+    padding-bottom: 0
+}
+
+#about p {
+    margin-bottom: 20px
+}
+
+#about h1.title {
+    letter-spacing: -1px
+}
+
+#about .mainbg {
+    background-color: #fff
+}
+
+.pc #about .mainbg {
+    padding-top: 250px;
+    margin-top: -250px;
+    background-image: url(../imgs/about_mainbg.jpg), url(../imgs/about_bg_sp.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: right top
+}
+
+.smp #about .mainbg {
+    padding-top: 170px;
+    margin-top: -170px;
+    background-size: 100% auto;
+    background-image: url(../../about/img/bg_sp.jpg)
+}
+
+#about .mainbg .mainTxt {
+    width: 60%;
+    padding-left: 15%
+}
+
+#about .mainbg .enBg {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 65%;
+    padding: 4% 5% 100px 0;
+    margin-top: 100px
+}
+
+#about .mainbg .enBg .txt {
+    padding-left: 24.75%
+}
+
+#about .mainbg .enBg .txt h2 {
+    font-size: 3.2rem;
+    border-bottom: 1px solid #707070;
+    line-height: 1.4;
+    padding-bottom: 10px;
+    margin-bottom: 15px
+}
+
+#about h1.title.white {
+    background-color: #fff;
+    color: #000
+}
+
+#about .ariabox {
+    position: relative;
+    padding: 0px 0 200px;
+    color: #ebebeb
+}
+
+#about .ariabox::before {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/about_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom
+}
+
+#about .ariabox .ariaTop {
+    padding: 200px 40% 250px 10%;
+    position: relative;
+    background-image: url(../../about/img/toparia_bg.jpg);
+    background-size: cover;
+    background-position: center right;
+    text-align: center
+}
+
+#about .ariabox .ariaTop .txtImg {
+    width: 60%;
+    margin: 0 auto 70px
+}
+
+#about .ariabox .mainTxt {
+    padding-top: 200px;
+    color: #fff
+}
+
+#about .ariabox .mainTxt .bg {
+    position: relative;
+    background-color: rgba(51, 51, 51, 0.7);
+    padding-top: 250px;
+    padding-bottom: 1px
+}
+
+#about .ariabox .mainTxt .logo {
+    position: absolute;
+    top: -170px;
+    left: -100px;
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    background-image: url(../imgs/about_logo_black.svg)
+}
+
+#about .ariabox .mainTxt .logo p {
+    font-weight: 700;
+    position: absolute;
+    top: 63%;
+    left: 32%;
+    font-size: 3rem;
+    line-height: 1.2
+}
+
+#about .ariabox .mainTxt h1 {
+    text-align: left;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 2.2rem;
+    line-height: 1.5;
+    display: block
+}
+
+#about .ariabox .mainTxt h1 .catch {
+    text-align: center
+}
+
+#about .ariabox .mainTxt h1 .catch img {
+    width: 70%
+}
+
+#about .ariabox .mainTxt .txt {
+    margin: 30px 0 120px;
+    padding-top: 30px;
+    border-top: 1px solid #ebebeb
+}
+
+#about .ariabox .arialink {
+    text-align: center;
+    margin-top: 90px
+}
+
+#about .ariabox .arialink a {
+    width: 400px;
+    position: relative
+}
+
+#about .ariabox .arialink a .blur {
+    position: absolute;
+    left: 0;
+    animation: circle 1.2s linear;
+    animation-iteration-count: infinite
+}
+
+@keyframes circle {
+    0% {
+        transform: scale(1);
+        filter: blur(0px);
+        opacity: 1
+    }
+
+    30% {
+        transform: scale(1);
+        filter: blur(10px);
+        opacity: 1
+    }
+
+    100% {
+        transform: scale(1.1);
+        filter: blur(20px);
+        opacity: 0
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #about .mainbg {
+        padding-bottom: 100px
+    }
+
+    #about .mainbg .mainTxt {
+        width: auto;
+        padding: 0 10%
+    }
+
+    #about .mainbg .enBg {
+        background-color: transparent;
+        width: auto;
+        padding: 0 10%;
+        margin-top: 100px
+    }
+
+    #about .mainbg .enBg .txt {
+        padding-left: 0
+    }
+
+    #about .mainbg .enBg .txt h2 {
+        font-size: 3.8rem
+    }
+
+    #about .ariabox {
+        position: relative;
+        padding: 0px 0 110px
+    }
+
+    #about .ariabox .ariaTop {
+        padding: 90px 0;
+        margin-top: -1px;
+        background-position: center left
+    }
+
+    #about .ariabox .ariaTop .txtImg {
+        width: 60%;
+        margin: 0 auto 40px
+    }
+
+    #about .ariabox .mainTxt {
+        padding-top: 0px
+    }
+
+    #about .ariabox .mainTxt .bg {
+        padding-top: 100px
+    }
+
+    #about .ariabox .mainTxt .logo {
+        display: none
+    }
+
+    #about .ariabox .mainTxt h1 .catch img {
+        width: 100%
+    }
+
+    #about .ariabox .arialink a {
+        width: 75%
+    }
+}
+
+#video h1.title {
+    padding-bottom: 30px;
+}
+
+#video.second {
+    margin-bottom: 0
+}
+
+#video .topMovie {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1
+}
+
+#video .topMovie .youtube {
+    width: 65%;
+    margin-top: -110px;
+}
+
+#video .topMovie .txt {
+    width: 35%;
+    padding-right: 3%
+}
+
+#video .topMovie .txt h2 {
+    font-size: 2.4rem;
+    line-height: 1.6em;
+    margin-bottom: 30px;
+    letter-spacing: 1px
+}
+
+#video .ichiran {
+    background-color: #EBEBEB;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 80px
+}
+
+#video .ichiran .cat ul {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: baseline
+}
+
+#video .ichiran .cat li {
+    cursor: pointer;
+    vertical-align: bottom;
+    font-size: 1.8rem;
+    letter-spacing: 0;
+    font-weight: 500;
+    font-style: normal;
+    margin-right: 20px;
+    background-color: transparent
+}
+
+#video .ichiran .cat li.non {
+    cursor: default;
+    padding-top: 3px;
+    margin-right: 40px;
+    font-size: 3.2rem
+}
+
+#video .ichiran .cat .select::before {
+    width: 100%
+}
+
+#video .ichiran .cat .select {
+    color: #FF00E2
+}
+
+#video .ichiran ul.flex li {
+    cursor: pointer
+}
+
+#video .ichiran ul.flex li .caption {
+    font-size: 1.2rem;
+    letter-spacing: 1px
+}
+
+@media screen and (max-width: 480px) {
+    #video .topMovie {
+        flex-wrap: wrap
+    }
+
+    #video .topMovie .youtube {
+        width: 100%;
+        order: 1;
+        margin-top: 0px
+    }
+
+    #video .topMovie .txt {
+        width: 100%;
+        padding-right: 0%;
+        order: 2
+    }
+
+    #video .topMovie .txt h2 {
+        font-size: 2.2rem;
+        margin-top: 20px;
+        lmargin-bottom: 10px
+    }
+
+    #video .ichiran {
+        margin-top: 50px;
+        padding-top: 50px;
+        padding-bottom: 30px
+    }
+
+    #video .ichiran .cat ul {
+        margin-bottom: 0px;
+        flex-wrap: wrap;
+        padding-bottom: 0px
+    }
+
+    #video .ichiran .cat li {
+        font-size: 2.2rem;
+        letter-spacing: 0;
+        background-color: transparent;
+        color: #000;
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-right: 30px
+    }
+
+    #video .ichiran .cat li.non {
+        margin-bottom: 20px;
+        font-size: 4.0rem;
+        width: 100%
+    }
+
+    #video .ichiran .cat li.non::after {
+        content: ""
+    }
+
+    #video .ichiran ul.flex li .caption {
+        font-size: 1.8rem;
+        line-height: 1.7em
+    }
+}
+
+#live.second {
+    padding-bottom: 0
+}
+
+#live .head {
+    margin: -250px 0 80px
+}
+
+#live .mainImg {
+    padding: 50px 0
+}
+
+#live .articleList {
+    margin-bottom: 120px
+}
+
+#live .commingTxt {
+    font-family: "Barlow", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    font-size: 3.2rem;
+    line-height: 1
+}
+
+#live .article {
+    background-color: #EBEBEB;
+    padding-bottom: 120px
+}
+
+#live .article .main {
+    margin-top: 0;
+    padding-top: 100px
+}
+
+#live .article .main .midashi {
+    font-family: "Barlow", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    font-style: italic;
+    font-size: 3.2rem;
+    line-height: 1;
+    font-weight: 700;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #999
+}
+
+#live .article .main .day {
+    margin-bottom: 15px
+}
+
+#live .article .main .honbun {
+    margin-top: 40px
+}
+
+#live .article .main h1 {
+    font-family: "Barlow", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    font-style: italic;
+    font-size: 2.8rem;
+    line-height: 1;
+    font-weight: 700
+}
+
+#live .article .main h2 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 2.0rem;
+    color: #FF00E2
+}
+
+#live .article .main h3 {
+    font-size: 110%;
+    margin-bottom: 5px
+}
+
+#live .article .gallery {
+    display: flex;
+    flex-wrap: wrap
+}
+
+#live .article .gallery a {
+    display: block;
+    width: 32%;
+    margin: 0 2% 2% 0;
+    transition: all .2s ease
+}
+
+#live .article .gallery a:nth-of-type(3n) {
+    margin-right: 0
+}
+
+#live .article .gallery a::before {
+    display: none
+}
+
+#live .article .gallery a:hover {
+    opacity: 0.8
+}
+
+@media screen and (max-width: 480px) {
+    #live .commingTxt {
+        margin-bottom: 240px
+    }
+}
+
+#contact #formArea .txt {
+    border-bottom: 1px dotted #ccc;
+    margin-bottom: 40px;
+    padding-bottom: 40px
+}
+
+#contact #formArea .txt .url {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    letter-spacing: 1px
+}
+
+#contact #formArea .txt .url .btmHover {
+    background-color: #666;
+    margin-bottom: 5px
+}
+
+#contact #formArea dl {
+    display: flex;
+    margin-bottom: 10px;
+    border-top: 1px solid #fff;
+    padding: 20px 0px;
+    letter-spacing: 0px
+}
+
+#contact #formArea dl dt {
+    width: 280px;
+    position: relative;
+    font-size: 1.6rem
+}
+
+#contact #formArea dl dt:before {
+    content: "***";
+    font-size: 75%;
+    color: #fff;
+    padding: 2px 5px;
+    position: relative;
+    top: -2px;
+    line-height: 1;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #be0033
+}
+
+#contact #formArea dl dt.none:before {
+    content: "任意";
+    background-color: #acacac
+}
+
+#contact #formArea dl dd {
+    width: 100%;
+    position: relative;
+}
+
+#contact #formArea dl dd small {
+    font-size: 11px;
+    display: block;
+    margin-top: 5px;
+    color: #666
+}
+
+#contact #formArea dl dd .tyu {
+    font-size: 10px
+}
+
+#contact #formArea .send {
+    border: 1px solid #c3c3c3;
+    padding: 20px 25px;
+    margin-bottom: 30px
+}
+
+#contact #formArea .send dt {
+    float: left
+}
+
+#contact #formArea .send dd {
+    margin-bottom: 0;
+    margin-left: 140px
+}
+
+#contact #formArea .pullDown {
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #d8d8d8;
+    border-radius: 2px;
+}
+
+#contact #formArea .pullDown select {
+    width: 100%;
+    padding-right: 1em;
+    cursor: pointer;
+    text-indent: 0.01px;
+    text-overflow: ellipsis;
+    border: none;
+    outline: none;
+    background: transparent;
+    background-image: none;
+    box-shadow: none;
+    padding: 10px 38px 10px 10px;
+    color: #000;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+#contact #formArea .pullDown select::-ms-expand {
+    display: none;
+}
+
+#contact #formArea .pullDown::before {
+    position: absolute;
+    top: 1em;
+    right: 0.9em;
+    width: 0;
+    height: 0;
+    padding: 0;
+    content: '';
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #d8d8d8;
+    pointer-events: none;
+}
+
+#contact #formArea input,
+#contact #formArea textarea {
+    /* font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif; */
+    border: 1px solid #d8d8d8;
+    background-color: #fff;
+    width: 100%;
+    padding: 8px 10px;
+    line-height: 1.4
+}
+
+#contact #formArea input:focus,
+#contact #formArea textarea:focus {
+    outline: none;
+    background-color: #fff;
+    border: 1px solid #FF00E2 !important;
+}
+
+#contact #formArea input:-webkit-autofill {
+    box-shadow: 0 0 0 1000px #fff inset
+}
+
+#contact #formArea .set {
+    background-color: #54c1c8 !important;
+    border-color: #fff !important;
+    color: #fff
+}
+
+#contact #formArea .set .num {
+    background-color: #fff !important;
+    border-color: #fff !important;
+    color: #333
+}
+
+#contact .submit {
+    margin: 50px 0 0;
+    display: flex;
+    justify-content: space-between
+}
+
+#contact .submit input,
+#contact .btm {
+    width: 49%;
+    font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    background-color: #000 !important;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    transition: all .2s ease
+}
+
+#contact .submit input:hover,
+#contact .submit input.return:hover,
+#contact .btm:hover,
+#contact .btm.return:hover {
+    background-color: #FF00E2 !important
+}
+
+#contact .submit input.return,
+#contact .btm.return {
+    background-color: #7e7e7e !important
+}
+
+#contact .btm {
+    margin-top: 80px
+}
+
+#contact .form p.txtArea {
+    margin-bottom: 40px;
+    display: block
+}
+
+#contact .form p.txtArea strong {
+    color: #FF00E2
+}
+
+#contact .form dl {
+    border: 1px solid #ccc;
+    border-top: none
+}
+
+#contact .form dl:first-child {
+    border-top: 1px solid #ccc
+}
+
+#contact .form dt {
+    margin-bottom: 0;
+    line-height: 1.2;
+    padding: 10px 15px;
+    color: #666;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc
+}
+
+#contact .form dd {
+    padding: 20px 15px;
+    margin: 0
+}
+
+#contact .form dd p {
+    margin-bottom: 15px
+}
+
+#contact #complete {
+    text-align: center;
+    margin-top: 100px
+}
+
+#contact #complete .submit {
+    justify-content: center
+}
+
+@media screen and (max-width: 480px) {
+    #contact {
+        width: 100%
+    }
+
+    #contact #formArea .txt {
+        margin: 30px 0
+    }
+
+    #contact #formArea .txt .url {
+        font-size: 1.4rem
+    }
+
+    #contact #formArea .txt .url .btmHover {
+        padding: 8px 15px;
+        text-align: left;
+        line-height: 1.4
+    }
+
+    #contact #formArea dl {
+        flex-wrap: wrap;
+        margin-bottom: 0
+    }
+
+    #contact #formArea dl dt,
+    #contact #formArea dl dd {
+        width: 100%;
+    }
+
+    #contact #formArea dl dt {
+        margin-bottom: 10px
+    }
+
+    #contact .submit {
+        margin: 30px 0 0
+    }
+
+    #contact .btm {
+        margin-top: 30px
+    }
+
+    #contact .form p.txtArea {
+        margin-bottom: 30px
+    }
+}
+
+.article .honbun p img {
+    max-width: 48%;
+    display: inline-block
+}
+
+.article .honbun p img:nth-child(2n) {
+    margin-left: 2%
+}
+
+@inlclude sp {
+    .article .honbun p img {
+        max-width: 80%
+    }
+}
+
+.title_serch {
+    font-size: 1.8rem;
+    margin-bottom: 40px
+}
+
+.title_serch form {
+    margin-top: 40px;
+    width: 50%
+}
+
+@media screen and (max-width: 480px) {
+    .title_serch form {
+        width: 100%
+    }
+}
+
+/*# sourceMappingURL=second.css.map */

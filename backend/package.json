@@ -1,0 +1,52 @@
+{
+  "name": "azey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect ./index.js",
+    "watch": "node-sass --watch resources/scss/ --output public/css/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "await": "^0.2.6",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cloudinary": "^1.32.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.4",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.6.5",
+    "mongoose-delete": "^0.5.4",
+    "mongoose-slug-generator": "^1.0.4",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "randomstring": "^1.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.4.1"
+  }
+}

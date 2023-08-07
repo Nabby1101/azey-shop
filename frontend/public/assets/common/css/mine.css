@@ -1,0 +1,709 @@
+/******************************************************************
+  Template Name: IA -ARIA ON THE PLANETES
+  Description: Coppy source code css/html/js at ia-aria.com
+  Author: 1st PLACE
+  Author URI: https://ia-aria.com/
+  Version: 1.0
+  Created: 1st PLACE
+******************************************************************/
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Loading...
+
+-------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/* Template default CSS
+/*----------------------------------------*/
+
+
+
+
+
+/******** Search **********/
+.input-group input {
+    width: 90%;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    float: left;
+}
+
+.input-group input:focus {
+    border: 3px solid #FF00E2 !important;
+}
+
+.input-group button {
+    height: 34px;
+}
+
+.borderLB {
+    border-left: 3px solid #FF00E2;
+    border-bottom: 3px solid #FF00E2;
+    width: 250px;
+}
+
+.backtoHome {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.userForm input {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.userForm input:focus {
+    border: 3px solid rgb(240, 90, 220) !important;
+}
+
+.userForm textarea:focus {
+    border: 1px solid #FF00E2;
+}
+
+.registerbtn {
+    width: 880px;
+    height: 38.4px;
+    margin-top: 3%;
+    font-size: 19px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    -webkit-transition: all 0.5s ease;
+    transition: 0.5s;
+}
+
+.registerbtn:hover {
+    background-color: #FF00E2 !important;
+}
+
+.inputbtn {
+    width: 75%;
+    height: 38.4px;
+    margin-top: 3%;
+    font-size: 19px;
+    background-color: #ffffff;
+    color: #fff;
+    -webkit-transition: all 0.5s ease;
+    transition: 0.5s;
+    border: 2px solid #000;
+}
+
+.inputbtn:focus {
+    border: 2px solid #FF00E2 !important;
+}
+
+.loginbtnFB {
+    width: 430px;
+    height: 45px;
+    margin-top: 3%;
+    font-size: 19px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    -webkit-transition: all 0.5s ease;
+    transition: 0.5s;
+    margin-right: 10px;
+}
+
+.loginbtnFB:hover {
+    background-color: #FF00E2 !important;
+}
+
+.loginbtnGG {
+    width: 430px;
+    height: 45px;
+    margin-top: 3%;
+    font-size: 19px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    -webkit-transition: all 0.5s ease;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+
+.loginbtnGG:hover {
+    background-color: #FF00E2 !important;
+}
+
+.iconLogin {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.completeEdit {
+    border: 2px solid lightgreen;
+}
+
+.recancel {
+    border: 2px solid red;
+}
+
+.fixWidthCategory {
+    width: 260px;
+    height: 40px;
+    border-left: solid rgb(240, 90, 220);
+    border-bottom: 2px solid rgb(240, 90, 220);
+    margin: 5px 10px 5px 5px;
+}
+
+.bestPadding {
+    padding-left: 13%;
+    padding-right: 4%
+}
+
+@media screen and (max-width: 480px) {
+    .bestPadding {
+        padding-left: 10%;
+        padding-right: 10%
+    }
+}
+
+.text-center {
+    text-align: center;
+    font-weight: bold;
+}
+
+/*  Cart    */
+.bordered {
+    /* border: 1px solid #333; */
+    width: 100%;
+}
+
+.bordered th {
+    text-align: center;
+    border: 1px solid #333;
+}
+
+.bordered th:last-child {
+    border-right: 0px solid #333;
+}
+
+.bordered td {
+    text-align: center;
+    border-left: 1px solid #333;
+    border-bottom: 1px solid #333;
+    padding: 1%;
+}
+
+/* .bordered tr{
+    text-align: center;
+    border: 1px solid #333;
+} */
+.changeQuantity {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.changeQuantity:hover {
+    color: #FF00E2;
+}
+
+.imgcart {
+    width: 50%;
+    height: 30%;
+}
+
+.checkout {
+    font-size: 24px;
+}
+
+.checkout span:first-child {
+    color: #FF00E2;
+}
+
+/*******************************/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px 12px 16px;
+    z-index: 1;
+}
+
+.dropdown-content p {
+    padding-top: 15px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.redline {
+    color: red;
+}
+
+.text-success {
+    color: #219653 !important;
+}
+
+.text-danger {
+    color: #d50100 !important;
+}
+
+.text-info {
+    color: #97ca31 !important;
+}
+
+.p-price {
+    color: #FF00E2 !important;
+}
+
+/*  Login */
+.InoriLeft a {
+    text-decoration: 1px solid #FF00E2 underline;
+}
+
+.Inori {
+    float: right;
+    padding: 2px;
+}
+
+.Yuzuriha {
+    text-align: center;
+}
+
+.loginFB {
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+}
+
+.loginGG {
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+}
+
+#contact .submit button {
+    width: 100%;
+    font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    background-color: #000 !important;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    transition: all .2s ease;
+    border: none;
+}
+
+#contact .submit button:hover {
+    background-color: #FF00E2 !important
+}
+
+/** Profile **/
+.commonPadding .smallWidth#formArea img#showImg {
+    width: 50% !important;
+    height: 50% !important;
+    float: left;
+    margin-left: -20%;
+    border-radius: 50%;
+}
+
+.tezt {
+    float: left;
+    width: 50%;
+    margin-left: 10%;
+}
+
+.profileText1 {
+    float: left;
+    padding-bottom: 5%;
+    width: 200px;
+    text-align: center;
+    text-decoration: 1px underline red;
+}
+
+.profileText2 {
+    float: left;
+}
+
+.profileText3 {
+    margin-left: 5%;
+}
+
+/** Category **/
+.sc-item {
+    width: 120px;
+    float: left;
+}
+
+.sc-item div:hover {
+    color: rgb(240, 90, 220)
+}
+
+.cs-item1 {
+    text-align: center;
+    width: 50px;
+    font-size: 15px;
+    border: 1px solid #333;
+    float: left;
+    color: #000;
+}
+
+.cs-item1:hover {
+    border: 1px solid #FF00E2;
+}
+
+.cateName {
+    color: #FF00E2;
+    /* width: 140px; */
+}
+
+/** ProductDetail **/
+.show-rating i {
+    font-size: 13px !important;
+}
+
+.star-pro i {
+    font-size: 18px !important;
+}
+
+.star-pro span {
+    font-size: 18px !important;
+}
+
+.page-details {
+    padding-top: 40px;
+    padding-bottom: 45px;
+}
+
+.pd-sold-pro {
+    position: absolute !important;
+    margin-left: 115px !important;
+}
+
+.pd-sold-pro span {
+    list-style: none;
+    font-size: 16px;
+    color: #636363;
+    line-height: 30px;
+}
+
+.checkColor {
+    float: left;
+    margin-right: 10px;
+}
+
+.checkSize {
+    float: left;
+    margin-right: -30px;
+}
+
+.sc-item1 {
+    width: 70px;
+    float: left;
+    text-align: center;
+    border: 1px solid #FF00E2;
+    margin-right: 10px;
+}
+
+.sc-item1:hover {
+    /* color: rgb(240, 90, 220); */
+    background-color: #f5f5f5;
+    opacity: 0.9;
+}
+
+.inputQuantity {
+    width: 100px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.inputQuantity:focus {
+    border: 3px solid rgb(240, 90, 220) !important;
+}
+
+.soldOut {
+    overflow: hidden;
+    padding: 3px 25px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-color: red;
+    color: black;
+    font-family: "Barlow", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    text-decoration: none;
+}
+
+.soldOut:hover {
+    color: black;
+}
+
+.ariaSale {
+    text-align: center;
+    /* margin-top: -45%; */
+    padding-bottom: 15%;
+}
+
+.ariaSale a {
+    width: 200px;
+    position: relative;
+    text-decoration: none;
+}
+
+.ariaSale a .blur {
+    position: absolute;
+    left: 0;
+    animation: circle 0.8s linear;
+    animation-iteration-count: infinite
+}
+
+@keyframes circle {
+    0% {
+        transform: scale(1);
+        filter: blur(0px);
+        opacity: 1
+    }
+
+    30% {
+        transform: scale(1);
+        filter: blur(10px);
+        opacity: 1
+    }
+
+    100% {
+        transform: scale(1.1);
+        filter: blur(20px);
+        opacity: 0
+    }
+}
+
+.rating.vote-star:hover {
+    color: #FF00E2;
+}
+
+.rating.vote-star {
+    color: #FF00E2;
+}
+
+.vote-star i {
+    font-size: 20px !important
+}
+
+/* comment + evaluate */
+
+.EvaluateProduct {
+    width: 100%;
+    border: 1px solid #FF00E2;
+    float: left;
+    padding: 2%;
+}
+
+.customer-review-option {
+    padding-top: 0px;
+}
+
+.customer-review-option h4 {
+    color: #292f3b;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.customer-review-option .comment-option .co-item {
+    margin-bottom: 20px;
+}
+
+.customer-review-option .comment-option .co-item .avatar-pic {
+    float: left;
+    margin-right: 20px;
+}
+
+.customer-review-option .comment-option .co-item .avatar-pic img {
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+}
+
+.customer-review-option .comment-option .co-item .avatar-text {
+    display: table;
+}
+
+.customer-review-option .comment-option .co-item .avatar-text .at-rating {
+    line-height: 9px;
+}
+
+.customer-review-option .comment-option .co-item .avatar-text .at-rating i {
+    font-size: 12px;
+    display: inline-block;
+    color: #FF00E2;
+    margin-right: -3px;
+}
+
+.customer-review-option .comment-option .co-item .avatar-text h5 {
+    color: #252525;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.customer-review-option .comment-option .co-item .avatar-text h5 span {
+    color: #b2b2b2;
+    font-size: 12px;
+    font-weight: 400px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 22px;
+    position: relative;
+}
+
+.customer-review-option .comment-option .co-item .avatar-text h5 span:before {
+    position: absolute;
+    left: -18px;
+    top: -5px;
+    content: "-";
+    font-size: 18px;
+    color: #b2b2b2;
+}
+
+.customer-review-option .comment-option .co-item .avatar-text .at-reply {
+    font-size: 14px;
+    color: #636363;
+}
+
+.customer-review-option .personal-rating {
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.customer-review-option .personal-rating h6 {
+    color: #252525;
+    font-size: 18px;
+    float: left;
+}
+
+.customer-review-option .personal-rating .rating i {
+    font-size: 12px;
+    display: inline-block;
+    color: #FF00E2;
+    margin-right: -3px;
+}
+
+.customer-review-option .leave-comment h4 {
+    color: #292f3b;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.customer-review-option .leave-comment .comment-form input {
+    width: 100%;
+    font-size: 16px;
+    color: #636363;
+    height: 50px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.customer-review-option .leave-comment .comment-form textarea {
+    width: 100%;
+    resize: none;
+    font-size: 16px;
+    color: #636363;
+    height: 116px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-bottom: 45px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.customer-review-option .leave-comment .comment-form textarea:focus {
+    border: 1px solid #FF00E2;
+}
+
+.alert-info a {
+    text-decoration: none;
+}
+
+/* check out */
+.checkout50 {
+    min-height: 1000px;
+    width: 94%;
+    margin: 3%;
+}
+
+.checkoutz {
+    width: 50%;
+    float: left;
+    min-height: 500px;
+    padding: 2%;
+}
+
+.priceCart {
+    width: 90%;
+}
+
+.priceCart li.totalPrice {
+    border-top: 3px solid #FF00E2;
+}
+
+.priceCart li {
+    width: 100%;
+    padding: 3%;
+    font-weight: bold;
+    border-bottom: 1px solid #636363;
+}
+
+.priceCart li:last-child {
+    border: none;
+}
+
+.priceCart span {
+    width: 40%;
+    float: right;
+    text-align: right;
+    border-left: 1px solid red;
+}
+
+.voucherbtn {
+    height: 38.4px;
+    margin-left: 1%;
+    border: 2px solid black !important;
+}
+
+.voucher {
+    width: 100%;
+}
+
+.voucher-applied {
+    width: 75%;
+    height: 38.4px;
+    margin-top: 3%;
+    font-size: 19px;
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid #43e1e9;
+}
+
+/** Header **/

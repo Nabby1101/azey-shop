@@ -1,0 +1,1327 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Noto+Sans+JP:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Noto+Sans+JP:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Noto+Sans+JP:wght@400;700&display=swap");
+
+.pc .index header.global {
+    border-bottom: none
+}
+
+.pc .index header.global h1 {
+    width: 19%;
+    padding-top: 30px;
+    top: 0px;
+    opacity: 0
+}
+
+.pc .index header.global h1.firstview {
+    opacity: 1
+}
+
+.pc .index header.global nav.global {
+    margin-left: 20%;
+    width: 80%
+}
+
+.pc .index header.global nav.global ul.nav li {
+    margin-right: 20px
+}
+
+.pc .index header.global nav.global .lang {
+    padding-left: 20px
+}
+
+.pc .index header.global nav.global .sns {
+    width: 300px
+}
+
+@media screen and (max-width: 480px) {
+    .index header.global {
+        background-color: transparent;
+        background-color: transparent
+    }
+
+    .index header.global h1 {
+        display: none
+    }
+
+    .index header.global .hamburger {
+        background-color: #000;
+        padding: 20px;
+        width: 70px;
+        height: 60px;
+        position: absolute;
+        z-index: 100;
+        margin-top: -1px
+    }
+
+    .index header.global .hamburger a span {
+        background-color: #fff
+    }
+
+    h1.title {
+        padding-top: 70px
+    }
+}
+
+ul.imgHover li .caption {
+    font-size: 1.2rem
+}
+
+@media screen and (max-width: 480px) {
+    ul.imgHover li .caption {
+        font-size: 1.8rem
+    }
+}
+
+.top-bn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000
+}
+
+@media screen and (max-width: 480px) {
+    .top-bn {
+        bottom: 10px;
+        right: 10px
+    }
+}
+
+.top-bn__flex {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right
+}
+
+.top-bn__img {
+    width: 220px;
+    transition: all .2s ease
+}
+
+.top-bn__img:hover {
+    transform: scale(1.1)
+}
+
+@media screen and (max-width: 480px) {
+    .top-bn__img {
+        width: 43%
+    }
+}
+
+.keyvisual {
+    position: relative
+}
+
+.keyvisual .logo {
+    width: 19%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 6.5%;
+    position: relative
+}
+
+.keyvisual .logo img {
+    width: 100%
+}
+
+.keyvisual .blinking {
+    display: none;
+    animation: blink .5s ease-in-out infinite alternate;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    padding: 0 0 60px;
+    z-index: 1;
+    cursor: pointer
+}
+
+.pc .keyvisual .blinking {
+    display: block
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+.keyvisual .slide {
+    width: 81%;
+    line-height: 0;
+    position: relative
+}
+
+.keyvisual .slide .slide-img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center
+}
+
+.pc .keyvisual .slide .swiper-pagination {
+    top: 50%;
+    bottom: inherit;
+    right: 20px;
+    left: inherit;
+    width: auto;
+    transform: translateY(-50%)
+}
+
+.pc .keyvisual .slide .swiper-pagination .swiper-pagination-bullet {
+    display: block;
+    margin: 8px 0
+}
+
+.keyvisual .slide .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    opacity: 0.8;
+    background: #ccc
+}
+
+.keyvisual .slide .swiper-pagination .swiper-pagination-bullet-active {
+    background: #FF00E2
+}
+
+@media screen and (max-width: 480px) {
+    .keyvisual {
+        flex-wrap: wrap
+    }
+
+    .keyvisual .logo {
+        width: 130px;
+        height: 130px;
+        display: flex;
+        background-color: #fff;
+        position: absolute;
+        padding: 45px;
+        margin: auto;
+        left: 50%;
+        top: 100px;
+        transform: translate(-50%, 0);
+        z-index: 2
+    }
+
+    .keyvisual .slide {
+        width: 100%
+    }
+
+    .keyvisual .swiper-pagination-bullets {
+        bottom: 25px
+    }
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: -1;
+    transform: translateY(-1px)
+}
+
+.video .list,
+.news,
+.music {
+    padding-bottom: 5%
+}
+
+.video {
+    margin-top: 150px;
+    transform: translateY(1px)
+}
+
+.video .link {
+    font-size: 1.3rem;
+    margin-left: 50px;
+    align-self: flex-end
+}
+
+.video .link .youtubelogo {
+    width: 100px;
+    margin-bottom: 15px
+}
+
+.video .link a {
+    text-decoration: none;
+    letter-spacing: 0;
+    border: 1px solid #777777;
+    padding: 10px 30px;
+    margin-right: 10px;
+    transition: all .2s ease
+}
+
+.video .link a:hover {
+    background-color: #fff;
+    color: #000
+}
+
+.video .link a.active {
+    border: 1px solid #FF00E2;
+    background-color: #fff;
+    color: #000
+}
+
+.video .list {
+    background-color: rgba(235, 235, 235, 0.9);
+    padding-bottom: 100px
+}
+
+.video .list ul {
+    padding: 0px 6% 50px;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.video .list li {
+    width: 24%
+}
+
+#news a:hover,
+#live a:hover {
+    color: #FF00E2
+}
+
+.imgfit {
+    right: 0;
+    top: 0;
+    border: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 5px
+}
+
+.imgfit img {
+    transition: all .3s ease
+}
+
+a .imgfit:hover img {
+    transform: scale(1.1, 1.1)
+}
+
+.cat ul {
+    margin-bottom: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+    font-size: 1.3rem;
+    font-family: "Barlow", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    font-style: italic
+}
+
+.cat li {
+    display: inline-block;
+    margin-right: 5px
+}
+
+.cat li a {
+    display: inline-block;
+    border-bottom: 4px solid #FF00E2;
+    letter-spacing: 0;
+    padding: 2px 4px;
+    color: #000;
+    text-decoration: none
+}
+
+.wp_title {
+    font-size: 2.8rem;
+    line-height: 1.6em;
+    font-weight: bold;
+    position: relative
+}
+
+.wp_title a {
+    transition: all .2s ease;
+    color: #000;
+    text-decoration: none
+}
+
+.day {
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 0px;
+    font-size: 1.9rem;
+    line-height: 1.4;
+    font-family: "Barlow", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    margin-bottom: 10px
+}
+
+@media screen and (max-width: 480px) {
+    a .imgfit:hover img {
+        transform: scale(1, 1)
+    }
+
+    .cat ul {
+        margin-bottom: 20px;
+        font-size: 1.6rem
+    }
+
+    .cat li a {
+        border-bottom-width: 3px
+    }
+
+    .wp_title {
+        font-size: 2.2rem
+    }
+
+    .day {
+        font-size: 2.4rem
+    }
+}
+
+.ichiran {
+    margin-bottom: 50px
+}
+
+.ichiran ul.thumbList {
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    padding-bottom: 70px;
+    border-bottom: 2px solid #ccc
+}
+
+.ichiran ul.thumbList:last-child {
+    border-bottom: none;
+    margin-bottom: 0px;
+    padding-bottom: 50px
+}
+
+.ichiran li.thumb {
+    position: relative;
+    width: 30%;
+    margin-right: 5%
+}
+
+.ichiran li.thumb:nth-child(3n) {
+    margin-right: 0
+}
+
+.ichiran li.thumb a {
+    transition: all .2s ease;
+    color: #000;
+    text-decoration: none;
+    display: block
+}
+
+.ichiran li.thumb h1 {
+    font-size: 1.3rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin-top: 20px;
+    word-break: break-word;
+}
+
+.ichiran li.thumb h1 span{
+    color: red;
+}
+
+.ichiran li.thumb .imgfit {
+    height: 150px;
+    margin-bottom: 10px
+}
+
+.ichiran li.thumb .imgfit img {
+    max-height: 150px
+}
+
+.ichiran .pager {
+    text-align: center;
+    font-family: "Barlow", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    font-weight: 700
+}
+
+.ichiran .pager li {
+    display: inline-block
+}
+
+.ichiran .pager li a {
+    border: 1px solid #ccc;
+    padding: 8px 0px;
+    width: 2.3em;
+    display: inline-block;
+    line-height: 1em;
+    text-decoration: none
+}
+
+.ichiran .pager li.active a {
+    background-color: #000;
+    color: #fff
+}
+
+@media screen and (max-width: 480px) {
+    .ichiran {
+        flex-wrap: wrap
+    }
+
+    .ichiran ul.thumbList {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        border-bottom: none
+    }
+
+    .ichiran li.thumb {
+        width: 100%;
+        margin-right: 0%;
+        border-top: 1px dotted #ccc;
+        margin-top: 50px;
+        padding-top: 50px
+    }
+
+    .ichiran li.thumb h1 {
+        font-size: 1.8rem;
+        margin-top: 20px
+    }
+
+    .ichiran li.thumb .imgfit {
+        height: 200px
+    }
+
+    .ichiran li.thumb .imgfit img {
+        max-height: 200px
+    }
+
+    .ichiran .pager {
+        margin-top: 60px
+    }
+}
+
+.article .main {
+    margin-top: -135px
+}
+
+.article .main .imgfit {
+    border: none;
+    margin-bottom: 25px
+}
+
+.article .honbun {
+    margin-top: 60px;
+    letter-spacing: 1.5px
+}
+
+.article .honbun a {
+    color: #FF00E2
+}
+
+#news .article .honbun h1 {
+    font-size: 2.2rem;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    line-height: 1.4
+}
+
+#news .article .honbun h2 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    line-height: 1.6
+}
+
+.article .honbun p {
+    margin: 30px 0px
+}
+
+.article .honbun .mainTxtColor {
+    color: #FF00E2
+}
+
+.article .honbun .flex p {
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+@media screen and (max-width: 480px) {
+    .article {
+        flex-wrap: wrap
+    }
+
+    .article .main {
+        margin-top: 0px
+    }
+
+    .article .main .imgfit {
+        height: 200px
+    }
+
+    .article .main .imgfit img {
+        max-height: 200px
+    }
+
+    .article .honbun {
+        margin-top: 50px
+    }
+
+    #news .article .honbun h1 {
+        margin-top: 50px;
+        padding-bottom: 10px
+    }
+
+    #news .article .honbun h2 {
+        margin-top: 40px;
+        margin-bottom: 5px
+    }
+
+    .article .honbun .flex {
+        display: block
+    }
+
+    .article .navColumn {
+        display: none
+    }
+}
+
+.articleList .topnews {
+    position: relative;
+    margin: -140px 0 140px 6%;
+    padding-left: 5px
+}
+
+.articleList .topnews .newstop {
+    width: 60%;
+    height: 500px;
+    position: absolute
+}
+
+.articleList .topnews .newstop img {
+    max-height: 500px
+}
+
+.articleList .topnews .imgfit {
+    border: none;
+    justify-content: flex-end
+}
+
+.articleList .topnews .txt {
+    padding-top: 280px
+}
+
+.articleList .topnews .wp_title {
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 60%;
+    padding: 0px 30px 30px 0
+}
+
+.articleList .navColumn {
+    width: 300px
+}
+
+.articleList .navColumn ul {
+    font-family: "Barlow", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-size: 1.8rem;
+    font-style: italic
+}
+
+.articleList .navColumn ul li {
+    margin-bottom: 10px
+}
+
+.articleList .main {
+    width: 100%;
+    padding-left: 80px
+}
+
+@media screen and (max-width: 480px) {
+    .articleList .topnews {
+        margin-left: 0;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 0
+    }
+
+    .articleList .topnews .newstop {
+        width: 100%;
+        height: auto;
+        position: relative
+    }
+
+    .articleList .topnews .newstop img {
+        max-height: inherit
+    }
+
+    .articleList .topnews .txt {
+        padding: 20px 20px 0 0;
+        margin-top: -50px;
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.85);
+        width: 90%
+    }
+
+    .articleList .topnews .day,
+    .articleList .topnews .wp_title {
+        margin-left: 10%
+    }
+
+    .articleList .topnews .day {
+        margin-left: 10%
+    }
+
+    .articleList .topnews .wp_title {
+        background-color: transparent;
+        width: auto;
+        padding: 0
+    }
+
+    .articleList .navColumn {
+        width: calc(100% + 80px);
+        order: 2;
+        margin-top: 100px
+    }
+
+    .articleList .navColumn ul {
+        font-size: 1.8rem
+    }
+
+    .articleList .navColumn ul li {
+        margin-bottom: 10px
+    }
+
+    .articleList .main {
+        padding-left: 0px;
+        order: 1;
+        width: 100%
+    }
+}
+
+#searchBox {
+    position: relative;
+    align-items: center;
+    margin-bottom: 30px
+}
+
+#searchBox #s-box,
+#searchBox button {
+    height: 40px
+}
+
+#searchBox #s-box {
+    padding: 0 10px;
+    border-radius: 2px;
+    border: solid 3px #eaeaea;
+    outline: 0;
+    width: calc(100% - 80px)
+}
+
+#searchBox button {
+    background-color: #000;
+    border-radius: 3px;
+    font-size: 1.4rem;
+    width: 180px;
+    color: #fff;
+    font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    border: none;
+    margin-left: 10px
+}
+
+#searchBox input#s-box {
+    border: 3px solid #eaeaea;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    margin-left: -50px;
+    width: 150px;
+}
+
+#searchBox input#s-box:focus {
+    border: 3px solid rgb(251, 122, 251) !important;
+}
+
+@media screen and (max-width: 480px) {
+
+    #searchBox #s-box,
+    #searchBox button {
+        height: 50px;
+        font-size: 1.8rem
+    }
+
+    #searchBox button {
+        font-size: 2.0rem;
+        width: 100px
+    }
+}
+
+.news .articleList .topnews {
+    margin-top: -239px
+}
+
+.news ul.thumbList {
+    justify-content: space-between
+}
+
+.news li.thumb {
+    width: 22%;
+    margin-right: 0
+}
+
+.news .ichiran a:hover,
+.news .topnews a:hover {
+    color: #FF00E2 !important
+}
+
+.ariaBox a {
+    display: block;
+    z-index: 1
+}
+
+.musiclist h1.title {
+    padding-bottom: 30px
+}
+
+.musiclist .term {
+    margin-bottom: 50px
+}
+
+.musiclist .term ul {
+    display: flex;
+    align-items: center;
+    padding-left: 5px
+}
+
+.musiclist .term li {
+    line-height: 1.2;
+    margin-right: 10px
+}
+
+.musiclist .term li a {
+    text-decoration: none;
+    transition: all .2s ease
+}
+
+.musiclist .term li.termLink a {
+    font-family: "Barlow", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    font-weight: 700;
+    font-size: 2.0rem
+}
+
+.musiclist .term li.rule {
+    margin-left: 40px
+}
+
+.musiclist .term li.rule a {
+    padding: 5px 20px;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    display: block
+}
+
+.musiclist .term li.rule a:hover {
+    background-color: #000;
+    color: #fff
+}
+
+.musiclist .item {
+    margin-bottom: 30px
+}
+
+.musiclist .item li {
+    width: 23%;
+    margin: 1%
+}
+
+@media screen and (min-width: 1600px) {
+    .musiclist .item li {
+        width: 18%
+    }
+}
+
+.musiclist .item.article ul {
+    background-color: #EBEBEB;
+    padding-top: 5%;
+    padding-bottom: 5%
+}
+
+.musiclist .item.article li {
+    width: 18%;
+    margin: 1%
+}
+
+@media screen and (min-width: 1600px) {
+    .musiclist .item.article li {
+        width: 14.666%
+    }
+}
+
+.musiclist .item.article.termFlg ul {
+    padding-top: 0;
+    background-color: transparent
+}
+
+.musiclist h1.h1soft {
+    font-size: 140%;
+    margin-bottom: 10px;
+    color: #000
+}
+
+.musiclist .cat {
+    font-size: 60%;
+    line-height: 1.2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 600
+}
+
+.musiclist .main {
+    margin-bottom: 7%
+}
+
+.musiclist .main .info,
+.musiclist .main .list,
+.musiclist .main .img {
+    width: 50%
+}
+
+.musiclist .main .info,
+.musiclist .main .list {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.musiclist .main .info {
+    padding-right: 2.5%
+}
+
+.musiclist .main .info h1 {
+    font-family: "Barlow", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 2.2rem;
+    letter-spacing: 0px;
+    display: flex;
+    align-items: center
+}
+
+.musiclist .main .info h1 .new {
+    width: 20%;
+    line-height: 0;
+    margin-right: 4%
+}
+
+.musiclist .main .info h1 .release {
+    font-weight: 800;
+    width: 80%
+}
+
+.musiclist .main .info h1 .release .share {
+    margin-top: 8px
+}
+
+.musiclist .main .info h1 .release .share p {
+    font-size: 1.9rem;
+    margin-right: 10px;
+    font-feature-settings: "pkna"
+}
+
+.musiclist .main .info h1 .release .share a {
+    margin-right: 3px
+}
+
+.musiclist .main .info h2 {
+    font-family: "Barlow", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4.0rem;
+    padding: 30px 0 15px;
+    letter-spacing: 0
+}
+
+.musiclist .main .info h3 {
+    font-weight: normal;
+    font-size: 1.4rem;
+    margin-bottom: 35px
+}
+
+.musiclist .main .info .link {
+    margin-bottom: 35px;
+    line-height: 0
+}
+
+.musiclist .main .info .link a {
+    font-family: "Barlow", "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0;
+    margin: 0 5px 5px 0;
+    line-height: 1.6
+}
+
+.musiclist .main .info .intro {
+    font-size: 1.2rem
+}
+
+.musiclist .main .list {
+    border-left: 1px solid #ccc;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    font-size: 1.2rem
+}
+
+.musiclist .main .list h3 {
+    font-size: 2.0rem;
+    font-style: italic;
+    font-weight: 800
+}
+
+.musiclist .youtube {
+    background-color: #333333
+}
+
+@media screen and (max-width: 480px) {
+    .musiclist .term {
+        margin-bottom: 60px
+    }
+
+    .musiclist .term ul {
+        flex-wrap: wrap
+    }
+
+    .musiclist .term li.termLink a {
+        font-size: 2.6rem
+    }
+
+    .musiclist .term li.rule {
+        margin-right: 0;
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px
+    }
+
+    .musiclist .term li.rule a {
+        padding: 7px 20px;
+        display: block;
+        font-size: 1.4rem
+    }
+
+    .musiclist .item li {
+        width: inherit;
+        margin: 30px 0% 0
+    }
+
+    .musiclist .item li:first-child {
+        margin-top: 0
+    }
+
+    .musiclist .item.article ul {
+        padding-top: 8%;
+        padding-bottom: 8%
+    }
+
+    .musiclist .item.article li {
+        margin: 0% 0 20px
+    }
+
+    .musiclist .main {
+        margin-bottom: 60px;
+        flex-wrap: wrap;
+        text-align: center
+    }
+
+    .musiclist .main .info,
+    .musiclist .main .list,
+    .musiclist .main .img {
+        width: 100%
+    }
+
+    .musiclist .main .info,
+    .musiclist .main .list {
+        padding-top: 50px;
+        padding-bottom: 30px
+    }
+
+    .musiclist .main .info {
+        order: 2;
+        padding-right: 0%
+    }
+
+    .musiclist .main .info h1 {
+        display: block;
+        line-height: 6vw
+    }
+
+    .musiclist .main .info h1 .new {
+        width: 25%;
+        margin: 0 auto 25px
+    }
+
+    .musiclist .main .info h1 .release {
+        font-size: 2.8rem;
+        width: 100%
+    }
+
+    .musiclist .main .info h1 .release .share {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        justify-content: center
+    }
+
+    .musiclist .main .info h1 .release .share p {
+        font-size: 2.2rem;
+        margin-right: 15px
+    }
+
+    .musiclist .main .info h1 .release .share a {
+        padding: 8px;
+        margin-right: 10px
+    }
+
+    .musiclist .main .info h2 {
+        font-size: 2.8rem;
+        line-height: 3.6rem;
+        padding: 25px 0;
+        letter-spacing: 0
+    }
+
+    .musiclist .main .info h3 {
+        font-size: 1.6rem;
+        margin-bottom: 30px
+    }
+
+    .musiclist .main .info .link {
+        margin-bottom: 40px
+    }
+
+    .musiclist .main .info .link a {
+        margin: 3px
+    }
+
+    .musiclist .main .info .intro {
+        font-size: 1.6rem;
+        text-align: left
+    }
+
+    .musiclist .main .list {
+        order: 3;
+        text-align: left;
+        border-top: 1px dotted #666;
+        border-left: none;
+        padding-left: 0%;
+        padding-right: 0%;
+        font-size: 1.4rem
+    }
+
+    .musiclist .main .img {
+        order: 1
+    }
+
+    .musiclist .cat {
+        font-size: 70%
+    }
+}
+
+.music {
+    background-color: #EBEBEB;
+    position: relative;
+    z-index: 3;
+    transform: translateY(1px)
+}
+
+.music .musiclist .item ul {
+    margin-bottom: 60px
+}
+
+.music .musiclist .item li {
+    width: 18%
+}
+
+.pc .music .musiclist .item li {
+    margin: 0
+}
+
+.music .musiclist .item li:nth-of-type(n+2) {
+    margin-left: 2.5% !important
+}
+
+.shop {
+    padding-bottom: 200px
+}
+
+.pc .shop {
+    background-image: url(../imgs/shop_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -20% 120px
+}
+
+.shop .item {
+    margin: -120px 0 80px;
+    padding-left: 50%
+}
+
+.shop .item ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.shop .item li {
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    width: 48%;
+    margin-bottom: 4%;
+    padding: 10px;
+    background-color: #fff;
+    overflow: hidden
+}
+
+.shop .shopLink {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    margin-top: -5%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 28%
+}
+
+.shop .shopLink .btm {
+    text-align: center;
+    width: 47%;
+    line-height: 1.2
+}
+
+.shop .shopLink .btm a {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    transition: all .2s ease
+}
+
+.shop .shopLink .btm a:hover {
+    border-radius: 0%
+}
+
+.shop .shopLink .btm small {
+    display: block;
+    margin-top: 10px
+}
+
+@media screen and (max-width: 480px) {
+
+    .video .list,
+    .news,
+    .music {
+        padding-bottom: 100px
+    }
+
+    .video {
+        margin-top: 130px
+    }
+
+    .video h1.title {
+        flex-wrap: wrap
+    }
+
+    .video .link {
+        margin-left: 0px;
+        width: 100%;
+        padding: 30px 10% 0
+    }
+
+    .video .link .youtubelogo {
+        width: 100px;
+        margin-bottom: 15px
+    }
+
+    .video .link a {
+        padding: 10px 0px;
+        width: 48%;
+        margin-right: 0px;
+        text-align: center
+    }
+
+    .video .link a:first-of-type {
+        margin-right: 4%
+    }
+
+    .video .list {
+        padding-top: 0;
+        padding-bottom: 100px
+    }
+
+    .video .list ul {
+        padding: 0 10%
+    }
+
+    .video .list li {
+        margin-bottom: 10%;
+        padding: 0 !important;
+        border-bottom: none
+    }
+
+    .video .list ul.imgHover li {
+        margin-top: 0
+    }
+
+    .video .list .mask {
+        height: 100%
+    }
+
+    .news .articleList .topnews {
+        margin-top: 0px
+    }
+
+    .news ul.thumbList:last-child {
+        margin-bottom: 60px
+    }
+
+    .news li.thumb {
+        width: 100%
+    }
+
+    .music .musiclist .item ul {
+        margin-bottom: 0px
+    }
+
+    .music .musiclist .item li:nth-of-type(n+2) {
+        margin-left: 0% !important
+    }
+
+    .shop {
+        padding-bottom: 120px
+    }
+
+    .shop .item {
+        margin: 0px;
+        padding-left: 0%
+    }
+
+    .shop .item li {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 10%
+    }
+
+    .shop .item li:last-child {
+        border-bottom: 1px solid #ccc
+    }
+
+    .shop .shopLink {
+        position: static;
+        margin-bottom: 80px;
+        width: 100%;
+        margin-top: 0%;
+        padding: 0 15%
+    }
+
+    .shop .shopLink .btm {
+        width: 47%
+    }
+
+    .shop .shopLink .btm small {
+        margin-top: 10px;
+        font-size: 1.4rem
+    }
+}
+
+/*# sourceMappingURL=top.css.map */
