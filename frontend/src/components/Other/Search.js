@@ -118,7 +118,7 @@ const Search = () => {
                             }
                         >
                             <img
-                                src={`https://nabby-app-backend.onrender.com/uploads/products/${Arr}`}
+                                src={`https://azey-app.onrender.com/uploads/products/${Arr}`}
                                 alt="アクリルスタンド"
                                 style={{ zIndex: '-1' }}
                             />

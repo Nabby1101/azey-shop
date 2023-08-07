@@ -21,7 +21,7 @@ const Profile = () => {
     const [dateOfBirth, setDateOfBirth] = useState(userInfo.dateOfBirth);
     const [sex, setSex] = useState(userInfo.sex);
     const [image, setImage] = useState(
-        `https://nabby-app-backend.onrender.com/uploads/users/${userInfo.avatar}`
+        `https://azey-app.onrender.com/uploads/users/${userInfo.avatar}`
     );
     const [file, setFile] = useState([]);
     const [position, setPosition] = useState([]);
@@ -151,7 +151,7 @@ const Profile = () => {
                                 {image && image.length !== 0 ? (
                                     <img
                                         src={`${image}`}
-                                        // src='https://nabby-app-backend.onrender.com/uploads/users/Egoist.jpg'
+                                        // src='https://azey-app.onrender.com/uploads/users/Egoist.jpg'
                                         id="showImg" className='avt'
                                         alt="アバター"
                                     />

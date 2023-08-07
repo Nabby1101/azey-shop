@@ -140,7 +140,7 @@ const ContentAccessory = (props) => {
                             <div
                                 className="product-large set-bg m-large large-man"
                                 style={{
-                                    backgroundImage: `url(https://nabby-app-backend.onrender.com/uploads/images/${img[0].image})`,
+                                    backgroundImage: `url(https://azey-app.onrender.com/uploads/images/${img[0].image})`,
                                 }}
                             >
                                 <h2>{img[0].title}</h2>
@@ -220,7 +220,7 @@ const ContentAccessory = (props) => {
                                     className='aos-init'
                                 >
                                     <img
-                                        src={`https://nabby-app-backend.onrender.com/uploads/products/${checkImage(
+                                        src={`https://azey-app.onrender.com/uploads/products/${checkImage(
                                             key
                                         )}`}
                                         alt="サムネイル"

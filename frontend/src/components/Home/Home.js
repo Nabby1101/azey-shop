@@ -344,7 +344,7 @@ const Home = () => {
                         to={`/tin-tuc/${value.slug}`}>
                         <div className="imgfit">
                           <img
-                            src={`https://nabby-app-backend.onrender.com/uploads/posts/${value.image}`}
+                            src={`https://azey-app.onrender.com/uploads/posts/${value.image}`}
                             alt="画像" />
                         </div>
                       </Link>
@@ -440,7 +440,7 @@ const Home = () => {
                       className='aos-init'
                     >
                       <img
-                        src={`https://nabby-app-backend.onrender.com/uploads/products/${checkImage(
+                        src={`https://azey-app.onrender.com/uploads/products/${checkImage(
                           key
                         )}`}
                         alt="サムネイル"
@@ -510,13 +510,13 @@ const Home = () => {
         <div className="shopLink">
           <div className="btm">
             <Link to={`/category/trang-phuc`}>
-              <img src="https://nabby-app-backend.onrender.com/uploads/categories/2023-06-04T14-41-56.061Z-4.jpg" alt="HACHIMAKI" />
+              <img src="https://azey-app.onrender.com/uploads/categories/2023-06-04T14-41-56.061Z-4.jpg" alt="HACHIMAKI" />
             </Link>
             <small style={{backgroundColor: 'aquamarine'}}><b>TRANG PHỤC</b></small>
           </div>
           <div className="btm">
             <Link to={`/category/vat-pham-khac`}>
-              <img src="https://nabby-app-backend.onrender.com/uploads/categories/2022-12-12T12-56-56.607Z-cate_2.jpg" alt="OTAKU MODE" />
+              <img src="https://azey-app.onrender.com/uploads/categories/2022-12-12T12-56-56.607Z-cate_2.jpg" alt="OTAKU MODE" />
             </Link>
             <small style={{backgroundColor: 'aquamarine'}}><b>VẬT PHẨM KHÁC</b></small>
           </div>

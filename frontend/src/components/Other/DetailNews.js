@@ -149,7 +149,7 @@ const DetailNews = (props) => {
                         <div className="main">
                             <div className="topimg imgfit">
                                 <img
-                                    src={`https://nabby-app-backend.onrender.com/uploads/posts/${post.image}`}
+                                    src={`https://azey-app.onrender.com/uploads/posts/${post.image}`}
                                     alt="画像"
                                 />
                             </div>
@@ -242,7 +242,7 @@ const DetailNews = (props) => {
                                                         >
                                                             <div className="nb-pic">
                                                                 <img
-                                                                    src={`https://nabby-app-backend.onrender.com/uploads/posts/${listPostByTopic[
+                                                                    src={`https://azey-app.onrender.com/uploads/posts/${listPostByTopic[
                                                                             i +
                                                                             1
                                                                         ]
@@ -287,7 +287,7 @@ const DetailNews = (props) => {
                                                             <div className="pb-pic">
                                                                 <i className="ti-arrow-left"></i>
                                                                 <img
-                                                                    src={`https://nabby-app-backend.onrender.com/uploads/posts/${listPostByTopic[
+                                                                    src={`https://azey-app.onrender.com/uploads/posts/${listPostByTopic[
                                                                             i -
                                                                             1
                                                                         ]
@@ -329,7 +329,7 @@ const DetailNews = (props) => {
                                                             <div className="pb-pic">
                                                                 <i className="ti-arrow-left"></i>
                                                                 <img
-                                                                    src={`https://nabby-app-backend.onrender.com/uploads/posts/${listPostByTopic[
+                                                                    src={`https://azey-app.onrender.com/uploads/posts/${listPostByTopic[
                                                                             i -
                                                                             1
                                                                         ]
@@ -366,7 +366,7 @@ const DetailNews = (props) => {
                                                         >
                                                             <div className="nb-pic">
                                                                 <img
-                                                                    src={`https://nabby-app-backend.onrender.com/uploads/posts/${listPostByTopic[
+                                                                    src={`https://azey-app.onrender.com/uploads/posts/${listPostByTopic[
                                                                             i +
                                                                             1
                                                                         ]
@@ -439,7 +439,7 @@ const DetailNews = (props) => {
                                                                     style={{
                                                                         height: '200px',
                                                                     }}
-                                                                    src={`https://nabby-app-backend.onrender.com/uploads/products/${checkImage(
+                                                                    src={`https://azey-app.onrender.com/uploads/products/${checkImage(
                                                                         key
                                                                     )}`}
                                                                     alt=""

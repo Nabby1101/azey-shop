@@ -77,8 +77,8 @@ export default function ImageField(props) {
                             <img
                                 key={key}
                                 className="product_img-add"
-                                src={`https://nabby-app-backend.onrender.com/${value.toString().replace(/'\'/g,'/')}`}
-                                // src={`https://nabby-app-backend.onrender.com/${
+                                src={`https://azey-app.onrender.com/${value.toString().replace(/'\'/g,'/')}`}
+                                // src={`https://azey-app.onrender.com/${
                                 //     match.url.split('/')[2]
                                 // }/${value}`}
                                 alt="hình sản phẩm nè"

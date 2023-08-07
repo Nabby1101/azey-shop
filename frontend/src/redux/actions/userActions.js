@@ -398,7 +398,7 @@ export const change = (values) => async (dispatch) => {
 //OPEN GOOGLE
 export const openGoogle = () => async (dispatch) => {
     try {
-        window.open('https://nabby-app-backend.onrender.com/api/user/login-google', '_self');
+        window.open('https://azey-app.onrender.com/api/user/login-google', '_self');
     } catch (e) {
         console.log(e);
     }
@@ -407,7 +407,7 @@ export const openGoogle = () => async (dispatch) => {
 //OPEN FACEBOOK
 export const openFacebook = () => async (dispatch) => {
     try {
-        window.open('https://nabby-app-backend.onrender.com/api/user/login-facebook', '_self');
+        window.open('https://azey-app.onrender.com/api/user/login-facebook', '_self');
     } catch (e) {
         console.log(e);
     }

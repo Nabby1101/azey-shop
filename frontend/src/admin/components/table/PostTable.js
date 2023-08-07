@@ -210,7 +210,7 @@ const PostTable = (props) => {
                                                     </td>
                                                     <td className="min-width th-admin">
                                                         <img
-                                                            src={`https://nabby-app-backend.onrender.com/uploads/posts/${value.image}`}
+                                                            src={`https://azey-app.onrender.com/uploads/posts/${value.image}`}
                                                             alt=""
                                                         />
                                                     </td>

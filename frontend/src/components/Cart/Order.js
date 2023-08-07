@@ -198,7 +198,7 @@ const Order = (props) => {
                                             )}
                                         </span>
                                         <img
-                                            src={`https://nabby-app-backend.onrender.com/uploads/products/${item.image.split(',')[0]}`}
+                                            src={`https://azey-app.onrender.com/uploads/products/${item.image.split(',')[0]}`}
                                             alt=""
                                             style={{ width: '50px', float: 'right', marginRight: '5%' }}
                                         />

@@ -221,7 +221,7 @@ const Product = () => {
               }
             >
               <img
-                src={`https://nabby-app-backend.onrender.com/uploads/products/${Arr}`}
+                src={`https://azey-app.onrender.com/uploads/products/${Arr}`}
                 alt="アクリルスタンド"
                 style={{ zIndex: '-1' }}
               />
@@ -356,7 +356,7 @@ const Product = () => {
       top: 0,
       behavior: 'smooth',
     });
-    // axios.get(`https://nabby-app-backend.onrender.com/api/product`).then((res) => {
+    // axios.get(`https://azey-app.onrender.com/api/product`).then((res) => {
     //   setCurrentTodos(res.data);
     // });
     dispatch(getCategories());

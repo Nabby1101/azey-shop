@@ -721,7 +721,7 @@ const FormEditOrder = (props) => {
                                                                             >
                                                                                 <td className="min-width th-admin">
                                                                                     <img
-                                                                                        src={`https://nabby-app-backend.onrender.com/uploads/products/${checkImage(
+                                                                                        src={`https://azey-app.onrender.com/uploads/products/${checkImage(
                                                                                             key
                                                                                         )}`}
                                                                                         alt=""

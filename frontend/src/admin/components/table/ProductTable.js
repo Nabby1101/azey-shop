@@ -258,7 +258,7 @@ const ProductTable = (props) => {
                                                     </td>
                                                     <td className="min-width th-admin">
                                                         <img style={{paddingBottom: "5%"}}
-                                                            src={`https://nabby-app-backend.onrender.com/uploads/products/${checkImage(key)}`}
+                                                            src={`https://azey-app.onrender.com/uploads/products/${checkImage(key)}`}
                                                             alt=""
                                                         />
                                                     </td>

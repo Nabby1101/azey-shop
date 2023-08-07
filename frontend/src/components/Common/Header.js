@@ -164,7 +164,7 @@ const Header = () => {
                           height: '40px',
                           borderRadius: '50%',
                         }}
-                        src={`https://nabby-app-backend.onrender.com/uploads/users/${image}`}
+                        src={`https://azey-app.onrender.com/uploads/users/${image}`}
                         // src={`assets/common/imgs/avtFemale.jpg`}
                         alt=""
                       />
@@ -176,7 +176,7 @@ const Header = () => {
                           height: '40px',
                           borderRadius: '50%',
                         }}
-                        // src={`https://nabby-app-backend.onrender.com/uploads/users/${image}`}
+                        // src={`https://azey-app.onrender.com/uploads/users/${image}`}
                         src={`assets/common/imgs/avtMale.jpg`}
                         alt=""
                       />

@@ -195,7 +195,7 @@ const CategoryTable = (props) => {
                                                         <>
                                                         <td className='min-width th-admin' style={{width: "500px"}}>
                                                             <img
-                                                                src={`https://nabby-app-backend.onrender.com/${value.image}`}
+                                                                src={`https://azey-app.onrender.com/${value.image}`}
                                                                 alt=""
                                                             />
                                                         </td>

@@ -183,7 +183,7 @@ const Cart = () => {
                                         <tr key={key}>
                                             <td className="cart-pic first-row">
                                                 <img
-                                                    src={`https://nabby-app-backend.onrender.com/uploads/products/${checkImage(
+                                                    src={`https://azey-app.onrender.com/uploads/products/${checkImage(
                                                         key
                                                     )}`}
                                                     alt=""

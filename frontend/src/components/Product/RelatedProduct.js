@@ -118,7 +118,7 @@ const RelatedProducts = (props) => {
                                                         }
                                                     >
                                                         <img
-                                                            src={`https://nabby-app-backend.onrender.com/uploads/products/${checkImage(key)}`}
+                                                            src={`https://azey-app.onrender.com/uploads/products/${checkImage(key)}`}
                                                             alt="アクリルスタンド"
                                                             style={{ zIndex: '-1', width: '100%', height: '' }}
                                                         />
