@@ -76,7 +76,7 @@ class ContactController {
                 <p>Cám ơn bạn đã quan tâm đến Azey shop của chúng tôi !</p>
                 ${req.body.reply}
                 <p style="font-size: 17px; margin-top: 20px;">Nếu có thắc mắc gì khác, bạn vui lòng cho Azey shop biết tại
-                    <a href="https://app-text-frontend.vercel.app/contact"><b>đây</b></a>. Chúng tôi rất hân hạnh được phục vụ bạn</p>
+                    <a href="https://azey-shop.vercel.app/contact"><b>đây</b></a>. Chúng tôi rất hân hạnh được phục vụ bạn</p>
             </div>
     <p style="font-weight: 700; font-size: 20px; text-align: center;">Chúc Quý Khách có một ngày tốt lành</p>`;
 

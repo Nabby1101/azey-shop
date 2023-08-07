@@ -19,7 +19,7 @@ exports.sendEmail = async (email, token) => {
             + ' <br/>'
             + '<span>Please verify your account by clicking the link</span>'
             + '<br/>'
-            + '<span>https://app-text-frontend.vercel.app/confirm/' + token +  '</span>'
+            + '<span>https://azey-shop.vercel.app//confirm/' + token +  '</span>'
     };
     try{
         let send = await transporter.sendMail(mailOptions);
@@ -61,7 +61,7 @@ exports.sendMailConfirmPayment = async (email, token) => {
             + ' <br/>'
             + '<span>Please verify your payment by clicking the link</span>'
             + '<br/>'
-            + '<span>https://app-text-frontend.vercel.app/payment/' + token +  '</span>'
+            + '<span>https://azey-shop.vercel.app/payment/' + token +  '</span>'
     };
     try{
         let send = await transporter.sendMail(mailOptions);

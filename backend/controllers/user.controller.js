@@ -123,7 +123,7 @@ class UserController {
                 <p>Chào </p>
                 <p>Có một yêu cầu thay đổi mật khẩu từ bạn.</p>
                 <p>Nếu không phải bạn thực hiện yêu cầu thì bỏ qua tin nhắn này.</p>
-                <p>Bạn hãy nhấn vào <a href="https://app-text-frontend.vercel.app/change-password/${user._id}"><b>Link này</b></a>
+                <p>Bạn hãy nhấn vào <a href="https://azey-shop.vercel.app/change-password/${user._id}"><b>Link này</b></a>
                  để thay đổi mật khẩu.</p>
                 <p><i>(Thời hạn của đường dẫn trên là 72 giờ.)</i></p>`;
 

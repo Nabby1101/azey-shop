@@ -100,7 +100,7 @@ class OrderController {
         content += `
             <div>
                 <p>Xin Chào ${req.body.order.shippingAddress.lastName}</p>
-                <p>Bạn đã đặt một đơn hàng mới từ  <a style="color: #FF00E2; text-decoration: none;" href="https://app-text-frontend.vercel.app/">Azey_Shop</a> !</p>
+                <p>Bạn đã đặt một đơn hàng mới từ  <a style="color: #FF00E2; text-decoration: none;" href="https://azey-shop.vercel.app/">Azey_Shop</a> !</p>
                 <h3 style="text-align: center; font-weight: 700; font-size: 20px">Thông tin đơn hàng</h3>
                 <div style="text-align: center; width: 100%;">
                     <table style="border: 1px solid black; width: 60%; margin-left: 20%;">
@@ -141,7 +141,7 @@ class OrderController {
                 </div>
                 <p style="font-size: 17px; margin-top: 20px; text-align: center;">Để biết thêm thông tin chi tiết và theo dõi trạng thái đơn hàng,
                     vui lòng nhấn vào
-                    <a style="color: #FF00E2; text-decoration: none;" href="https://app-text-frontend.vercel.app/order/${
+                    <a style="color: #FF00E2; text-decoration: none;" href="https://azey-shop.vercel.app/order/${
                         req.body.order._id
                     }"><b>Đây</b></a></p>
             </div>
